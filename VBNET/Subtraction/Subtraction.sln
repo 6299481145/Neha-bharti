@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Subtraction", "Subtraction\Subtraction.vbproj", "{36A28385-4717-49CA-98ED-9033C86C82AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36A28385-4717-49CA-98ED-9033C86C82AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A28385-4717-49CA-98ED-9033C86C82AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A28385-4717-49CA-98ED-9033C86C82AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A28385-4717-49CA-98ED-9033C86C82AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8437B78E-85BE-483D-9915-8664E25E64BC}
+	EndGlobalSection
+EndGlobal
