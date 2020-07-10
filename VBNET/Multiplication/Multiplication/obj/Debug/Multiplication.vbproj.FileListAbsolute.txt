@@ -1,0 +1,12 @@
+D:\Neha-bharti\VBNET\Multiplication\Multiplication\bin\Debug\Multiplication.exe.config
+D:\Neha-bharti\VBNET\Multiplication\Multiplication\bin\Debug\Multiplication.exe
+D:\Neha-bharti\VBNET\Multiplication\Multiplication\bin\Debug\Multiplication.pdb
+D:\Neha-bharti\VBNET\Multiplication\Multiplication\bin\Debug\Multiplication.xml
+D:\Neha-bharti\VBNET\Multiplication\Multiplication\obj\Debug\Multiplication.vbprojAssemblyReference.cache
+D:\Neha-bharti\VBNET\Multiplication\Multiplication\obj\Debug\Multiplication.FrmMultiplicationApp.resources
+D:\Neha-bharti\VBNET\Multiplication\Multiplication\obj\Debug\Multiplication.Resources.resources
+D:\Neha-bharti\VBNET\Multiplication\Multiplication\obj\Debug\Multiplication.vbproj.GenerateResource.cache
+D:\Neha-bharti\VBNET\Multiplication\Multiplication\obj\Debug\Multiplication.vbproj.CoreCompileInputs.cache
+D:\Neha-bharti\VBNET\Multiplication\Multiplication\obj\Debug\Multiplication.exe
+D:\Neha-bharti\VBNET\Multiplication\Multiplication\obj\Debug\Multiplication.xml
+D:\Neha-bharti\VBNET\Multiplication\Multiplication\obj\Debug\Multiplication.pdb

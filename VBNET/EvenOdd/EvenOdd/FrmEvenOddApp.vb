@@ -1,11 +1,11 @@
 ﻿Public Class FrmEvenOddApp
-    Private Sub BtnCalculate_Click(sender As Object, e As EventArgs) Handles BtnCalculate.Click
+    Private Sub BtnCheck_Click(sender As Object, e As EventArgs) Handles BtnCheck.Click
         Dim n As Integer
         n = TxtNumber.Text
         If (n Mod 2 = 0) Then
-            MsgBox(n & "is Even")
+            MsgBox(n & " is a even number.")
         Else
-            MsgBox(n & "is Odd")
+            MsgBox(n & " is a odd number.")
         End If
     End Sub
 

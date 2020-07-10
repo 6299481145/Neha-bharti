@@ -1,5 +1,5 @@
 ﻿Public Class FrmSubtractionApp
-    Private Sub BtnSub_Click(sender As Object, e As EventArgs) Handles BtnSub.Click
+    Private Sub BtnSubtract_Click(sender As Object, e As EventArgs) Handles BtnSubtract.Click
         Dim a, b, c As Integer
         a = TxtSubtrahend.Text
         b = TxtMinuend.Text

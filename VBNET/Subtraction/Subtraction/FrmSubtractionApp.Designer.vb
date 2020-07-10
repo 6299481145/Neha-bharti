@@ -28,7 +28,7 @@ Partial Class FrmSubtractionApp
         Me.TxtSubtrahend = New System.Windows.Forms.TextBox()
         Me.TxtMinuend = New System.Windows.Forms.TextBox()
         Me.TxtDifference = New System.Windows.Forms.TextBox()
-        Me.BtnSub = New System.Windows.Forms.Button()
+        Me.BtnSubtract = New System.Windows.Forms.Button()
         Me.BtnReset = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
@@ -82,14 +82,14 @@ Partial Class FrmSubtractionApp
         Me.TxtDifference.TabIndex = 5
         Me.TxtDifference.TabStop = False
         '
-        'BtnSub
+        'BtnSubtract
         '
-        Me.BtnSub.Location = New System.Drawing.Point(134, 276)
-        Me.BtnSub.Name = "BtnSub"
-        Me.BtnSub.Size = New System.Drawing.Size(75, 23)
-        Me.BtnSub.TabIndex = 6
-        Me.BtnSub.Text = "Sub"
-        Me.BtnSub.UseVisualStyleBackColor = True
+        Me.BtnSubtract.Location = New System.Drawing.Point(134, 276)
+        Me.BtnSubtract.Name = "BtnSubtract"
+        Me.BtnSubtract.Size = New System.Drawing.Size(75, 23)
+        Me.BtnSubtract.TabIndex = 6
+        Me.BtnSubtract.Text = "Subtract"
+        Me.BtnSubtract.UseVisualStyleBackColor = True
         '
         'BtnReset
         '
@@ -106,7 +106,7 @@ Partial Class FrmSubtractionApp
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(463, 409)
         Me.Controls.Add(Me.BtnReset)
-        Me.Controls.Add(Me.BtnSub)
+        Me.Controls.Add(Me.BtnSubtract)
         Me.Controls.Add(Me.TxtDifference)
         Me.Controls.Add(Me.TxtMinuend)
         Me.Controls.Add(Me.TxtSubtrahend)
@@ -127,6 +127,6 @@ Partial Class FrmSubtractionApp
     Friend WithEvents TxtSubtrahend As TextBox
     Friend WithEvents TxtMinuend As TextBox
     Friend WithEvents TxtDifference As TextBox
-    Friend WithEvents BtnSub As Button
+    Friend WithEvents BtnSubtract As Button
     Friend WithEvents BtnReset As Button
 End Class

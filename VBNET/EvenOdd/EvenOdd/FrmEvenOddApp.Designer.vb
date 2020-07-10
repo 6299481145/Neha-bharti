@@ -26,7 +26,7 @@ Partial Class FrmEvenOddApp
         Me.LblEvenOdd = New System.Windows.Forms.Label()
         Me.TxtNumber = New System.Windows.Forms.TextBox()
         Me.TxtEvenOdd = New System.Windows.Forms.TextBox()
-        Me.BtnCalculate = New System.Windows.Forms.Button()
+        Me.BtnCheck = New System.Windows.Forms.Button()
         Me.BtnReset = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
@@ -57,7 +57,7 @@ Partial Class FrmEvenOddApp
         '
         'TxtEvenOdd
         '
-        Me.TxtEvenOdd.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtEvenOdd.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtEvenOdd.Location = New System.Drawing.Point(214, 139)
         Me.TxtEvenOdd.Name = "TxtEvenOdd"
         Me.TxtEvenOdd.ReadOnly = True
@@ -65,14 +65,14 @@ Partial Class FrmEvenOddApp
         Me.TxtEvenOdd.TabIndex = 3
         Me.TxtEvenOdd.TabStop = False
         '
-        'BtnCalculate
+        'BtnCheck
         '
-        Me.BtnCalculate.Location = New System.Drawing.Point(137, 217)
-        Me.BtnCalculate.Name = "BtnCalculate"
-        Me.BtnCalculate.Size = New System.Drawing.Size(75, 23)
-        Me.BtnCalculate.TabIndex = 4
-        Me.BtnCalculate.Text = "Calculate"
-        Me.BtnCalculate.UseVisualStyleBackColor = True
+        Me.BtnCheck.Location = New System.Drawing.Point(137, 217)
+        Me.BtnCheck.Name = "BtnCheck"
+        Me.BtnCheck.Size = New System.Drawing.Size(75, 23)
+        Me.BtnCheck.TabIndex = 4
+        Me.BtnCheck.Text = "Check"
+        Me.BtnCheck.UseVisualStyleBackColor = True
         '
         'BtnReset
         '
@@ -89,7 +89,7 @@ Partial Class FrmEvenOddApp
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(436, 338)
         Me.Controls.Add(Me.BtnReset)
-        Me.Controls.Add(Me.BtnCalculate)
+        Me.Controls.Add(Me.BtnCheck)
         Me.Controls.Add(Me.TxtEvenOdd)
         Me.Controls.Add(Me.TxtNumber)
         Me.Controls.Add(Me.LblEvenOdd)
@@ -106,6 +106,6 @@ Partial Class FrmEvenOddApp
     Friend WithEvents LblEvenOdd As Label
     Friend WithEvents TxtNumber As TextBox
     Friend WithEvents TxtEvenOdd As TextBox
-    Friend WithEvents BtnCalculate As Button
+    Friend WithEvents BtnCheck As Button
     Friend WithEvents BtnReset As Button
 End Class
