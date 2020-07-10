@@ -22,108 +22,111 @@ Partial Class FrmSubtractionApp
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.LblSubtrahend = New System.Windows.Forms.Label()
+        Me.LblMinuend = New System.Windows.Forms.Label()
+        Me.LblDifference = New System.Windows.Forms.Label()
+        Me.TxtSubtrahend = New System.Windows.Forms.TextBox()
+        Me.TxtMinuend = New System.Windows.Forms.TextBox()
+        Me.TxtDifference = New System.Windows.Forms.TextBox()
+        Me.BtnSub = New System.Windows.Forms.Button()
+        Me.BtnReset = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Label1
+        'LblSubtrahend
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(87, 65)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(82, 17)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Subtrahend"
+        Me.LblSubtrahend.AutoSize = True
+        Me.LblSubtrahend.Location = New System.Drawing.Point(87, 65)
+        Me.LblSubtrahend.Name = "LblSubtrahend"
+        Me.LblSubtrahend.Size = New System.Drawing.Size(82, 17)
+        Me.LblSubtrahend.TabIndex = 0
+        Me.LblSubtrahend.Text = "Subtrahend"
         '
-        'Label2
+        'LblMinuend
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(90, 135)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(62, 17)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Minuend"
+        Me.LblMinuend.AutoSize = True
+        Me.LblMinuend.Location = New System.Drawing.Point(90, 135)
+        Me.LblMinuend.Name = "LblMinuend"
+        Me.LblMinuend.Size = New System.Drawing.Size(62, 17)
+        Me.LblMinuend.TabIndex = 1
+        Me.LblMinuend.Text = "Minuend"
         '
-        'Label3
+        'LblDifference
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(91, 202)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(73, 17)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Difference"
+        Me.LblDifference.AutoSize = True
+        Me.LblDifference.Location = New System.Drawing.Point(91, 202)
+        Me.LblDifference.Name = "LblDifference"
+        Me.LblDifference.Size = New System.Drawing.Size(73, 17)
+        Me.LblDifference.TabIndex = 2
+        Me.LblDifference.Text = "Difference"
         '
-        'TextBox1
+        'TxtSubtrahend
         '
-        Me.TextBox1.Location = New System.Drawing.Point(224, 63)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox1.TabIndex = 3
+        Me.TxtSubtrahend.Location = New System.Drawing.Point(224, 63)
+        Me.TxtSubtrahend.Name = "TxtSubtrahend"
+        Me.TxtSubtrahend.Size = New System.Drawing.Size(100, 22)
+        Me.TxtSubtrahend.TabIndex = 3
         '
-        'TextBox2
+        'TxtMinuend
         '
-        Me.TextBox2.Location = New System.Drawing.Point(223, 132)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox2.TabIndex = 4
+        Me.TxtMinuend.Location = New System.Drawing.Point(223, 132)
+        Me.TxtMinuend.Name = "TxtMinuend"
+        Me.TxtMinuend.Size = New System.Drawing.Size(100, 22)
+        Me.TxtMinuend.TabIndex = 4
         '
-        'TextBox3
+        'TxtDifference
         '
-        Me.TextBox3.Location = New System.Drawing.Point(225, 200)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox3.TabIndex = 5
+        Me.TxtDifference.Location = New System.Drawing.Point(225, 200)
+        Me.TxtDifference.Name = "TxtDifference"
+        Me.TxtDifference.ReadOnly = True
+        Me.TxtDifference.Size = New System.Drawing.Size(100, 22)
+        Me.TxtDifference.TabIndex = 5
+        Me.TxtDifference.TabStop = False
         '
-        'Button1
+        'BtnSub
         '
-        Me.Button1.Location = New System.Drawing.Point(134, 276)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 6
-        Me.Button1.Text = "Sub"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.BtnSub.Location = New System.Drawing.Point(134, 276)
+        Me.BtnSub.Name = "BtnSub"
+        Me.BtnSub.Size = New System.Drawing.Size(75, 23)
+        Me.BtnSub.TabIndex = 6
+        Me.BtnSub.Text = "Sub"
+        Me.BtnSub.UseVisualStyleBackColor = True
         '
-        'Button2
+        'BtnReset
         '
-        Me.Button2.Location = New System.Drawing.Point(215, 276)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 7
-        Me.Button2.Text = "Reset"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.BtnReset.Location = New System.Drawing.Point(215, 276)
+        Me.BtnReset.Name = "BtnReset"
+        Me.BtnReset.Size = New System.Drawing.Size(75, 23)
+        Me.BtnReset.TabIndex = 7
+        Me.BtnReset.Text = "Reset"
+        Me.BtnReset.UseVisualStyleBackColor = True
         '
         'FrmSubtractionApp
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(463, 409)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.BtnReset)
+        Me.Controls.Add(Me.BtnSub)
+        Me.Controls.Add(Me.TxtDifference)
+        Me.Controls.Add(Me.TxtMinuend)
+        Me.Controls.Add(Me.TxtSubtrahend)
+        Me.Controls.Add(Me.LblDifference)
+        Me.Controls.Add(Me.LblMinuend)
+        Me.Controls.Add(Me.LblSubtrahend)
         Me.Name = "FrmSubtractionApp"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "SubtractionApp"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents LblSubtrahend As Label
+    Friend WithEvents LblMinuend As Label
+    Friend WithEvents LblDifference As Label
+    Friend WithEvents TxtSubtrahend As TextBox
+    Friend WithEvents TxtMinuend As TextBox
+    Friend WithEvents TxtDifference As TextBox
+    Friend WithEvents BtnSub As Button
+    Friend WithEvents BtnReset As Button
 End Class

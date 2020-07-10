@@ -22,10 +22,17 @@ Partial Class FrmRectangleAreaApp
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
+        Me.SuspendLayout()
+        '
+        'FrmRectangleAreaApp
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "Form1"
+        Me.Name = "FrmRectangleAreaApp"
+        Me.Text = "RectangleAreaApp"
+        Me.ResumeLayout(False)
+
     End Sub
 
 End Class
