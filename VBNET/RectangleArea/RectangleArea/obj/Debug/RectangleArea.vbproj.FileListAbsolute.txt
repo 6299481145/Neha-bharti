@@ -1,0 +1,12 @@
+D:\Neha-bharti\VBNET\RectangleArea\RectangleArea\bin\Debug\RectangleArea.exe.config
+D:\Neha-bharti\VBNET\RectangleArea\RectangleArea\bin\Debug\RectangleArea.exe
+D:\Neha-bharti\VBNET\RectangleArea\RectangleArea\bin\Debug\RectangleArea.pdb
+D:\Neha-bharti\VBNET\RectangleArea\RectangleArea\bin\Debug\RectangleArea.xml
+D:\Neha-bharti\VBNET\RectangleArea\RectangleArea\obj\Debug\RectangleArea.vbprojAssemblyReference.cache
+D:\Neha-bharti\VBNET\RectangleArea\RectangleArea\obj\Debug\RectangleArea.FrmRectangleAreaApp.resources
+D:\Neha-bharti\VBNET\RectangleArea\RectangleArea\obj\Debug\RectangleArea.Resources.resources
+D:\Neha-bharti\VBNET\RectangleArea\RectangleArea\obj\Debug\RectangleArea.vbproj.GenerateResource.cache
+D:\Neha-bharti\VBNET\RectangleArea\RectangleArea\obj\Debug\RectangleArea.vbproj.CoreCompileInputs.cache
+D:\Neha-bharti\VBNET\RectangleArea\RectangleArea\obj\Debug\RectangleArea.exe
+D:\Neha-bharti\VBNET\RectangleArea\RectangleArea\obj\Debug\RectangleArea.xml
+D:\Neha-bharti\VBNET\RectangleArea\RectangleArea\obj\Debug\RectangleArea.pdb

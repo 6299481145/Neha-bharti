@@ -22,86 +22,90 @@ Partial Class FrmEvenOddApp
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.LblNumber = New System.Windows.Forms.Label()
+        Me.LblEvenOdd = New System.Windows.Forms.Label()
+        Me.TxtNumber = New System.Windows.Forms.TextBox()
+        Me.TxtEvenOdd = New System.Windows.Forms.TextBox()
+        Me.BtnCalculate = New System.Windows.Forms.Button()
+        Me.BtnReset = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Label1
+        'LblNumber
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(90, 62)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(51, 17)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Label1"
+        Me.LblNumber.AutoSize = True
+        Me.LblNumber.Location = New System.Drawing.Point(90, 62)
+        Me.LblNumber.Name = "LblNumber"
+        Me.LblNumber.Size = New System.Drawing.Size(58, 17)
+        Me.LblNumber.TabIndex = 0
+        Me.LblNumber.Text = "Number"
         '
-        'Label2
+        'LblEvenOdd
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(90, 144)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(51, 17)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Label2"
+        Me.LblEvenOdd.AutoSize = True
+        Me.LblEvenOdd.Location = New System.Drawing.Point(90, 144)
+        Me.LblEvenOdd.Name = "LblEvenOdd"
+        Me.LblEvenOdd.Size = New System.Drawing.Size(67, 17)
+        Me.LblEvenOdd.TabIndex = 1
+        Me.LblEvenOdd.Text = "EvenOdd"
         '
-        'TextBox1
+        'TxtNumber
         '
-        Me.TextBox1.Location = New System.Drawing.Point(214, 61)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox1.TabIndex = 2
+        Me.TxtNumber.Location = New System.Drawing.Point(214, 61)
+        Me.TxtNumber.Name = "TxtNumber"
+        Me.TxtNumber.Size = New System.Drawing.Size(100, 22)
+        Me.TxtNumber.TabIndex = 2
         '
-        'TextBox2
+        'TxtEvenOdd
         '
-        Me.TextBox2.Location = New System.Drawing.Point(214, 139)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox2.TabIndex = 3
+        Me.TxtEvenOdd.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtEvenOdd.Location = New System.Drawing.Point(214, 139)
+        Me.TxtEvenOdd.Name = "TxtEvenOdd"
+        Me.TxtEvenOdd.ReadOnly = True
+        Me.TxtEvenOdd.Size = New System.Drawing.Size(100, 22)
+        Me.TxtEvenOdd.TabIndex = 3
+        Me.TxtEvenOdd.TabStop = False
         '
-        'Button1
+        'BtnCalculate
         '
-        Me.Button1.Location = New System.Drawing.Point(137, 217)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.BtnCalculate.Location = New System.Drawing.Point(137, 217)
+        Me.BtnCalculate.Name = "BtnCalculate"
+        Me.BtnCalculate.Size = New System.Drawing.Size(75, 23)
+        Me.BtnCalculate.TabIndex = 4
+        Me.BtnCalculate.Text = "Calculate"
+        Me.BtnCalculate.UseVisualStyleBackColor = True
         '
-        'Button2
+        'BtnReset
         '
-        Me.Button2.Location = New System.Drawing.Point(218, 217)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 5
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.BtnReset.Location = New System.Drawing.Point(218, 217)
+        Me.BtnReset.Name = "BtnReset"
+        Me.BtnReset.Size = New System.Drawing.Size(75, 23)
+        Me.BtnReset.TabIndex = 5
+        Me.BtnReset.Text = "Reset"
+        Me.BtnReset.UseVisualStyleBackColor = True
         '
         'FrmEvenOddApp
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(436, 338)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.BtnReset)
+        Me.Controls.Add(Me.BtnCalculate)
+        Me.Controls.Add(Me.TxtEvenOdd)
+        Me.Controls.Add(Me.TxtNumber)
+        Me.Controls.Add(Me.LblEvenOdd)
+        Me.Controls.Add(Me.LblNumber)
         Me.Name = "FrmEvenOddApp"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "EvenOddApp"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents LblNumber As Label
+    Friend WithEvents LblEvenOdd As Label
+    Friend WithEvents TxtNumber As TextBox
+    Friend WithEvents TxtEvenOdd As TextBox
+    Friend WithEvents BtnCalculate As Button
+    Friend WithEvents BtnReset As Button
 End Class
