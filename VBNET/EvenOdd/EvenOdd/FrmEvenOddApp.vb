@@ -11,6 +11,7 @@
 
     Private Sub BtnReset_Click(sender As Object, e As EventArgs) Handles BtnReset.Click
         TxtNumber.Clear()
+        TxtEvenOdd.Clear()
         TxtNumber.Focus()
     End Sub
 End Class

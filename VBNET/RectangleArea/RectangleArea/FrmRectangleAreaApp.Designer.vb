@@ -23,9 +23,9 @@ Partial Class FrmRectangleAreaApp
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.LblLength = New System.Windows.Forms.Label()
-        Me.LblBreath = New System.Windows.Forms.Label()
+        Me.LblBreadth = New System.Windows.Forms.Label()
         Me.TxtLength = New System.Windows.Forms.TextBox()
-        Me.TxtBreath = New System.Windows.Forms.TextBox()
+        Me.TxtBreadth = New System.Windows.Forms.TextBox()
         Me.BtnCalculate = New System.Windows.Forms.Button()
         Me.BtnReset = New System.Windows.Forms.Button()
         Me.LblArea = New System.Windows.Forms.Label()
@@ -35,38 +35,38 @@ Partial Class FrmRectangleAreaApp
         'LblLength
         '
         Me.LblLength.AutoSize = True
-        Me.LblLength.Location = New System.Drawing.Point(80, 52)
+        Me.LblLength.Location = New System.Drawing.Point(114, 52)
         Me.LblLength.Name = "LblLength"
         Me.LblLength.Size = New System.Drawing.Size(52, 17)
         Me.LblLength.TabIndex = 0
         Me.LblLength.Text = "Length"
         '
-        'LblBreath
+        'LblBreadth
         '
-        Me.LblBreath.AutoSize = True
-        Me.LblBreath.Location = New System.Drawing.Point(80, 110)
-        Me.LblBreath.Name = "LblBreath"
-        Me.LblBreath.Size = New System.Drawing.Size(50, 17)
-        Me.LblBreath.TabIndex = 1
-        Me.LblBreath.Text = "Breath"
+        Me.LblBreadth.AutoSize = True
+        Me.LblBreadth.Location = New System.Drawing.Point(114, 110)
+        Me.LblBreadth.Name = "LblBreadth"
+        Me.LblBreadth.Size = New System.Drawing.Size(58, 17)
+        Me.LblBreadth.TabIndex = 1
+        Me.LblBreadth.Text = "Breadth"
         '
         'TxtLength
         '
-        Me.TxtLength.Location = New System.Drawing.Point(202, 49)
+        Me.TxtLength.Location = New System.Drawing.Point(230, 49)
         Me.TxtLength.Name = "TxtLength"
         Me.TxtLength.Size = New System.Drawing.Size(100, 22)
         Me.TxtLength.TabIndex = 2
         '
-        'TxtBreath
+        'TxtBreadth
         '
-        Me.TxtBreath.Location = New System.Drawing.Point(203, 110)
-        Me.TxtBreath.Name = "TxtBreath"
-        Me.TxtBreath.Size = New System.Drawing.Size(100, 22)
-        Me.TxtBreath.TabIndex = 3
+        Me.TxtBreadth.Location = New System.Drawing.Point(231, 110)
+        Me.TxtBreadth.Name = "TxtBreadth"
+        Me.TxtBreadth.Size = New System.Drawing.Size(100, 22)
+        Me.TxtBreadth.TabIndex = 3
         '
         'BtnCalculate
         '
-        Me.BtnCalculate.Location = New System.Drawing.Point(115, 234)
+        Me.BtnCalculate.Location = New System.Drawing.Point(143, 234)
         Me.BtnCalculate.Name = "BtnCalculate"
         Me.BtnCalculate.Size = New System.Drawing.Size(75, 33)
         Me.BtnCalculate.TabIndex = 4
@@ -75,7 +75,7 @@ Partial Class FrmRectangleAreaApp
         '
         'BtnReset
         '
-        Me.BtnReset.Location = New System.Drawing.Point(199, 234)
+        Me.BtnReset.Location = New System.Drawing.Point(227, 234)
         Me.BtnReset.Name = "BtnReset"
         Me.BtnReset.Size = New System.Drawing.Size(75, 33)
         Me.BtnReset.TabIndex = 5
@@ -85,7 +85,7 @@ Partial Class FrmRectangleAreaApp
         'LblArea
         '
         Me.LblArea.AutoSize = True
-        Me.LblArea.Location = New System.Drawing.Point(83, 173)
+        Me.LblArea.Location = New System.Drawing.Point(114, 173)
         Me.LblArea.Name = "LblArea"
         Me.LblArea.Size = New System.Drawing.Size(38, 17)
         Me.LblArea.TabIndex = 6
@@ -94,7 +94,7 @@ Partial Class FrmRectangleAreaApp
         'TxtArea
         '
         Me.TxtArea.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtArea.Location = New System.Drawing.Point(203, 173)
+        Me.TxtArea.Location = New System.Drawing.Point(231, 173)
         Me.TxtArea.Name = "TxtArea"
         Me.TxtArea.ReadOnly = True
         Me.TxtArea.Size = New System.Drawing.Size(100, 22)
@@ -105,14 +105,14 @@ Partial Class FrmRectangleAreaApp
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(439, 372)
+        Me.ClientSize = New System.Drawing.Size(443, 356)
         Me.Controls.Add(Me.TxtArea)
         Me.Controls.Add(Me.LblArea)
         Me.Controls.Add(Me.BtnReset)
         Me.Controls.Add(Me.BtnCalculate)
-        Me.Controls.Add(Me.TxtBreath)
+        Me.Controls.Add(Me.TxtBreadth)
         Me.Controls.Add(Me.TxtLength)
-        Me.Controls.Add(Me.LblBreath)
+        Me.Controls.Add(Me.LblBreadth)
         Me.Controls.Add(Me.LblLength)
         Me.Name = "FrmRectangleAreaApp"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -123,9 +123,9 @@ Partial Class FrmRectangleAreaApp
     End Sub
 
     Friend WithEvents LblLength As Label
-    Friend WithEvents LblBreath As Label
+    Friend WithEvents LblBreadth As Label
     Friend WithEvents TxtLength As TextBox
-    Friend WithEvents TxtBreath As TextBox
+    Friend WithEvents TxtBreadth As TextBox
     Friend WithEvents BtnCalculate As Button
     Friend WithEvents BtnReset As Button
     Friend WithEvents LblArea As Label
