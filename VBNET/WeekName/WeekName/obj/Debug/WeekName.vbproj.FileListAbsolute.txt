@@ -1,0 +1,12 @@
+D:\Neha-bharti\VBNET\WeekName\WeekName\bin\Debug\WeekName.exe.config
+D:\Neha-bharti\VBNET\WeekName\WeekName\bin\Debug\WeekName.exe
+D:\Neha-bharti\VBNET\WeekName\WeekName\bin\Debug\WeekName.pdb
+D:\Neha-bharti\VBNET\WeekName\WeekName\bin\Debug\WeekName.xml
+D:\Neha-bharti\VBNET\WeekName\WeekName\obj\Debug\WeekName.vbprojAssemblyReference.cache
+D:\Neha-bharti\VBNET\WeekName\WeekName\obj\Debug\WeekName.FrmWeekNameApp.resources
+D:\Neha-bharti\VBNET\WeekName\WeekName\obj\Debug\WeekName.Resources.resources
+D:\Neha-bharti\VBNET\WeekName\WeekName\obj\Debug\WeekName.vbproj.GenerateResource.cache
+D:\Neha-bharti\VBNET\WeekName\WeekName\obj\Debug\WeekName.vbproj.CoreCompileInputs.cache
+D:\Neha-bharti\VBNET\WeekName\WeekName\obj\Debug\WeekName.exe
+D:\Neha-bharti\VBNET\WeekName\WeekName\obj\Debug\WeekName.xml
+D:\Neha-bharti\VBNET\WeekName\WeekName\obj\Debug\WeekName.pdb

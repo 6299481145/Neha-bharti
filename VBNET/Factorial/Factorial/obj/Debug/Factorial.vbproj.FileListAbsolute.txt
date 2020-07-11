@@ -1,0 +1,12 @@
+D:\Neha-bharti\VBNET\Factorial\Factorial\bin\Debug\Factorial.exe.config
+D:\Neha-bharti\VBNET\Factorial\Factorial\bin\Debug\Factorial.exe
+D:\Neha-bharti\VBNET\Factorial\Factorial\bin\Debug\Factorial.pdb
+D:\Neha-bharti\VBNET\Factorial\Factorial\bin\Debug\Factorial.xml
+D:\Neha-bharti\VBNET\Factorial\Factorial\obj\Debug\Factorial.vbprojAssemblyReference.cache
+D:\Neha-bharti\VBNET\Factorial\Factorial\obj\Debug\Factorial.FrmFactorial.resources
+D:\Neha-bharti\VBNET\Factorial\Factorial\obj\Debug\Factorial.Resources.resources
+D:\Neha-bharti\VBNET\Factorial\Factorial\obj\Debug\Factorial.vbproj.GenerateResource.cache
+D:\Neha-bharti\VBNET\Factorial\Factorial\obj\Debug\Factorial.vbproj.CoreCompileInputs.cache
+D:\Neha-bharti\VBNET\Factorial\Factorial\obj\Debug\Factorial.exe
+D:\Neha-bharti\VBNET\Factorial\Factorial\obj\Debug\Factorial.xml
+D:\Neha-bharti\VBNET\Factorial\Factorial\obj\Debug\Factorial.pdb

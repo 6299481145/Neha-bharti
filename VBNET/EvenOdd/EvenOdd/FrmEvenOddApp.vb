@@ -3,9 +3,9 @@
         Dim n As Integer
         n = TxtNumber.Text
         If (n Mod 2 = 0) Then
-            MsgBox(n & " is a even number.")
+            TxtEvenOdd.Text = ("Even")
         Else
-            MsgBox(n & " is a odd number.")
+            TxtEvenOdd.Text = (" Odd")
         End If
     End Sub
 

@@ -1,0 +1,12 @@
+D:\Neha-bharti\VBNET\Palindrome\Palindrome\bin\Debug\Palindrome.exe.config
+D:\Neha-bharti\VBNET\Palindrome\Palindrome\bin\Debug\Palindrome.exe
+D:\Neha-bharti\VBNET\Palindrome\Palindrome\bin\Debug\Palindrome.pdb
+D:\Neha-bharti\VBNET\Palindrome\Palindrome\bin\Debug\Palindrome.xml
+D:\Neha-bharti\VBNET\Palindrome\Palindrome\obj\Debug\Palindrome.vbprojAssemblyReference.cache
+D:\Neha-bharti\VBNET\Palindrome\Palindrome\obj\Debug\Palindrome.FrmPalindromeApp.resources
+D:\Neha-bharti\VBNET\Palindrome\Palindrome\obj\Debug\Palindrome.Resources.resources
+D:\Neha-bharti\VBNET\Palindrome\Palindrome\obj\Debug\Palindrome.vbproj.GenerateResource.cache
+D:\Neha-bharti\VBNET\Palindrome\Palindrome\obj\Debug\Palindrome.vbproj.CoreCompileInputs.cache
+D:\Neha-bharti\VBNET\Palindrome\Palindrome\obj\Debug\Palindrome.exe
+D:\Neha-bharti\VBNET\Palindrome\Palindrome\obj\Debug\Palindrome.xml
+D:\Neha-bharti\VBNET\Palindrome\Palindrome\obj\Debug\Palindrome.pdb

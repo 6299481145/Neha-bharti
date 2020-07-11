@@ -52,7 +52,7 @@ Partial Class FrmEvenOddApp
         '
         Me.TxtNumber.Location = New System.Drawing.Point(214, 61)
         Me.TxtNumber.Name = "TxtNumber"
-        Me.TxtNumber.Size = New System.Drawing.Size(100, 22)
+        Me.TxtNumber.Size = New System.Drawing.Size(90, 22)
         Me.TxtNumber.TabIndex = 2
         '
         'TxtEvenOdd
@@ -61,7 +61,7 @@ Partial Class FrmEvenOddApp
         Me.TxtEvenOdd.Location = New System.Drawing.Point(214, 139)
         Me.TxtEvenOdd.Name = "TxtEvenOdd"
         Me.TxtEvenOdd.ReadOnly = True
-        Me.TxtEvenOdd.Size = New System.Drawing.Size(100, 22)
+        Me.TxtEvenOdd.Size = New System.Drawing.Size(92, 22)
         Me.TxtEvenOdd.TabIndex = 3
         Me.TxtEvenOdd.TabStop = False
         '
