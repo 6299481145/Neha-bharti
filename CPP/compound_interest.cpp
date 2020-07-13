@@ -4,7 +4,8 @@
 using namespace std;
 int main()
 {
- float p,r,t,ci;	
+ float p,r,t,ci;
+ 	
  cout<<"Please enter Principal:";
  cin>>p;
  
