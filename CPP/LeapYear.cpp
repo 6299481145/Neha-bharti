@@ -13,7 +13,7 @@ int main()
 	}
 	else
 	{
-	 cout<<"Common Year"	;
+	 cout<<"Common Year";
 	}
 	return 0;
 }
