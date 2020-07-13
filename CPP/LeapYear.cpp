@@ -9,11 +9,11 @@ int main()
 	
 	if(yr%400==0)
 	{
-	cout<<"leap Year";
+	 cout<<"leap Year";
 	}
 	else
 	{
-	cout<<"Common Year"	;
+	 cout<<"Common Year"	;
 	}
 	return 0;
 }
