@@ -13,7 +13,7 @@ Module Sum
 
         c = a + b
 
-        Console.WriteLine("The sum is{0}.", c)
+        Console.WriteLine("The sum is {0}.", c)
         Console.WriteLine("Program over .... press enter to exit....")
         Console.ReadKey()
     End Sub
