@@ -1,0 +1,13 @@
+D:\Neha Bharti\VB.NET\Sum.vb\Sum.vb\bin\Debug\netcoreapp3.1\Sum.vb.exe
+D:\Neha Bharti\VB.NET\Sum.vb\Sum.vb\bin\Debug\netcoreapp3.1\Sum.vb.deps.json
+D:\Neha Bharti\VB.NET\Sum.vb\Sum.vb\bin\Debug\netcoreapp3.1\Sum.vb.runtimeconfig.json
+D:\Neha Bharti\VB.NET\Sum.vb\Sum.vb\bin\Debug\netcoreapp3.1\Sum.vb.runtimeconfig.dev.json
+D:\Neha Bharti\VB.NET\Sum.vb\Sum.vb\bin\Debug\netcoreapp3.1\Sum.vb.dll
+D:\Neha Bharti\VB.NET\Sum.vb\Sum.vb\bin\Debug\netcoreapp3.1\Sum.vb.pdb
+D:\Neha Bharti\VB.NET\Sum.vb\Sum.vb\obj\Debug\netcoreapp3.1\Sum.vb.vbprojAssemblyReference.cache
+D:\Neha Bharti\VB.NET\Sum.vb\Sum.vb\obj\Debug\netcoreapp3.1\Sum.vb.AssemblyInfoInputs.cache
+D:\Neha Bharti\VB.NET\Sum.vb\Sum.vb\obj\Debug\netcoreapp3.1\Sum.vb.AssemblyInfo.vb
+D:\Neha Bharti\VB.NET\Sum.vb\Sum.vb\obj\Debug\netcoreapp3.1\Sum.vb.vbproj.CoreCompileInputs.cache
+D:\Neha Bharti\VB.NET\Sum.vb\Sum.vb\obj\Debug\netcoreapp3.1\Sum.vb.dll
+D:\Neha Bharti\VB.NET\Sum.vb\Sum.vb\obj\Debug\netcoreapp3.1\Sum.vb.pdb
+D:\Neha Bharti\VB.NET\Sum.vb\Sum.vb\obj\Debug\netcoreapp3.1\Sum.vb.genruntimeconfig.cache

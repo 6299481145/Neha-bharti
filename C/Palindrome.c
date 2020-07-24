@@ -14,11 +14,11 @@ int main()
 	
 	if(strcmpi(str,rev)==0)
 	{
-		Printf("%s is Palindrome",str);
+		printf("%s is Palindrome",str);
 	}
 	else
 	{
-		printf("%s is not a palindrome",str);
+		printfS("%s is not a palindrome",str);
 	}
 	return 0;
 }
