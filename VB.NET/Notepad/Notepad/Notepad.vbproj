@@ -73,11 +73,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Notepad.vb">
+    <Compile Include="FrmMyNotepad.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Notepad.Designer.vb">
-      <DependentUpon>Notepad.vb</DependentUpon>
+    <Compile Include="FrmMyNotepad.Designer.vb">
+      <DependentUpon>FrmMyNotepad.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -103,8 +103,8 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Notepad.resx">
-      <DependentUpon>Notepad.vb</DependentUpon>
+    <EmbeddedResource Include="FrmMyNotepad.resx">
+      <DependentUpon>FrmMyNotepad.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
