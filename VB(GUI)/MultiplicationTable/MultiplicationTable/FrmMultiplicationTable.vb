@@ -242,6 +242,6 @@
             p = n * i
             TxtMultiplicationTable.Text = TxtMultiplicationTable.Text & n & "×" & i & "=" & p & vbCrLf
         Next
-
+        TxtMessage.Clear()
     End Sub
 End Class
