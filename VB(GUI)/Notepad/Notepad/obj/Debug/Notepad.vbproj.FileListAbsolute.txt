@@ -10,3 +10,15 @@ D:\Neha Bharti\VB.NET\Notepad\Notepad\obj\Debug\Notepad.vbproj.CoreCompileInputs
 D:\Neha Bharti\VB.NET\Notepad\Notepad\obj\Debug\Notepad.exe
 D:\Neha Bharti\VB.NET\Notepad\Notepad\obj\Debug\Notepad.xml
 D:\Neha Bharti\VB.NET\Notepad\Notepad\obj\Debug\Notepad.pdb
+D:\Neha Bharti\VB(GUI)\Notepad\Notepad\bin\Debug\Notepad.exe.config
+D:\Neha Bharti\VB(GUI)\Notepad\Notepad\bin\Debug\Notepad.exe
+D:\Neha Bharti\VB(GUI)\Notepad\Notepad\bin\Debug\Notepad.pdb
+D:\Neha Bharti\VB(GUI)\Notepad\Notepad\bin\Debug\Notepad.xml
+D:\Neha Bharti\VB(GUI)\Notepad\Notepad\obj\Debug\Notepad.vbprojAssemblyReference.cache
+D:\Neha Bharti\VB(GUI)\Notepad\Notepad\obj\Debug\Notepad.Resources.resources
+D:\Neha Bharti\VB(GUI)\Notepad\Notepad\obj\Debug\Notepad.FrmMyNotepad.resources
+D:\Neha Bharti\VB(GUI)\Notepad\Notepad\obj\Debug\Notepad.vbproj.GenerateResource.cache
+D:\Neha Bharti\VB(GUI)\Notepad\Notepad\obj\Debug\Notepad.vbproj.CoreCompileInputs.cache
+D:\Neha Bharti\VB(GUI)\Notepad\Notepad\obj\Debug\Notepad.exe
+D:\Neha Bharti\VB(GUI)\Notepad\Notepad\obj\Debug\Notepad.xml
+D:\Neha Bharti\VB(GUI)\Notepad\Notepad\obj\Debug\Notepad.pdb
