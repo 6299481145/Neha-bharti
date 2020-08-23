@@ -41,7 +41,7 @@ Partial Class FrmCalculator
         Me.Button14 = New System.Windows.Forms.Button()
         Me.Button15 = New System.Windows.Forms.Button()
         Me.Button16 = New System.Windows.Forms.Button()
-        Me.TexResult = New System.Windows.Forms.TextBox()
+        Me.TxtResult = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Btn1
@@ -234,23 +234,23 @@ Partial Class FrmCalculator
         Me.Button16.Text = "="
         Me.Button16.UseVisualStyleBackColor = True
         '
-        'TexResult
+        'TxtResult
         '
-        Me.TexResult.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TexResult.Location = New System.Drawing.Point(12, 12)
-        Me.TexResult.Multiline = True
-        Me.TexResult.Name = "TexResult"
-        Me.TexResult.Size = New System.Drawing.Size(243, 35)
-        Me.TexResult.TabIndex = 19
-        Me.TexResult.Text = "0"
-        Me.TexResult.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.TxtResult.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtResult.Location = New System.Drawing.Point(12, 12)
+        Me.TxtResult.Multiline = True
+        Me.TxtResult.Name = "TxtResult"
+        Me.TxtResult.Size = New System.Drawing.Size(243, 35)
+        Me.TxtResult.TabIndex = 19
+        Me.TxtResult.Text = "0"
+        Me.TxtResult.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'FrmCalculator
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(269, 266)
-        Me.Controls.Add(Me.TexResult)
+        Me.Controls.Add(Me.TxtResult)
         Me.Controls.Add(Me.Button16)
         Me.Controls.Add(Me.Button15)
         Me.Controls.Add(Me.Button14)
@@ -298,5 +298,5 @@ Partial Class FrmCalculator
     Friend WithEvents Button14 As Button
     Friend WithEvents Button15 As Button
     Friend WithEvents Button16 As Button
-    Friend WithEvents TexResult As TextBox
+    Friend WithEvents TxtResult As TextBox
 End Class
