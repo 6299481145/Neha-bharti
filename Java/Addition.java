@@ -3,9 +3,9 @@
 import java.lang.*;
 import java.util.Scanner;
 
-public class AddTwoIntegers {
+public class Addition {
 	
-	public Static void main(String[] args) {
+	public static void main(String[] args) {
 		int a,b,c;
 		
 		Scanner sc = new Scanner(System.in);
@@ -18,7 +18,7 @@ public class AddTwoIntegers {
 		
 		c = a + b;
 		
-		System.out.println("The sum is:"  + c );
+		System.out.println("The sum is "  + c + "." );
 	}
 	
 }
