@@ -1,18 +1,18 @@
 //program to find factorial of a given number using function
 
-import java.lang.*;
-import java.util.Scanner;
+import java.lang.*;         //importing all the classes from lang package
+import java.util.Scanner;  //importing only Scanner class from util package
 
 public class Factorial {
     public static void main (String[] args){
 	    int n;
 	
-	    Scanner sc= new Scanner(System.in);
+	    Scanner sc = new Scanner(System.in);
 	
 	    System.out.print("Please enter a number:");
-	    n=sc.nextInt();
+	    n = sc.nextInt();
 	
-	    int f=factorial(n);
+	    int f = factorial(n);
 	
 	    System.out.println("The factorial of  " + n + " is " + f + ".");
 	
