@@ -14,7 +14,7 @@ public class Factorial {
 	
 	    int f=factorial(n);
 	
-	    System.out.print("The factorial of  " + n + " is " + f + ".");
+	    System.out.println("The factorial of  " + n + " is " + f + ".");
 	
 	}
 	
