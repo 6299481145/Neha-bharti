@@ -10,3 +10,15 @@ D:\Neha Bharti\VB.NET\Squre Root\Squre Root\obj\Debug\Squre Root.vbproj.CoreComp
 D:\Neha Bharti\VB.NET\Squre Root\Squre Root\obj\Debug\Squre Root.exe
 D:\Neha Bharti\VB.NET\Squre Root\Squre Root\obj\Debug\Squre Root.xml
 D:\Neha Bharti\VB.NET\Squre Root\Squre Root\obj\Debug\Squre Root.pdb
+D:\Neha Bharti\VB(GUI)\Squre Root\Squre Root\bin\Debug\Squre Root.exe.config
+D:\Neha Bharti\VB(GUI)\Squre Root\Squre Root\bin\Debug\Squre Root.exe
+D:\Neha Bharti\VB(GUI)\Squre Root\Squre Root\bin\Debug\Squre Root.pdb
+D:\Neha Bharti\VB(GUI)\Squre Root\Squre Root\bin\Debug\Squre Root.xml
+D:\Neha Bharti\VB(GUI)\Squre Root\Squre Root\obj\Debug\Squre Root.vbprojAssemblyReference.cache
+D:\Neha Bharti\VB(GUI)\Squre Root\Squre Root\obj\Debug\Squre_Root.FrmSqureRoot.resources
+D:\Neha Bharti\VB(GUI)\Squre Root\Squre Root\obj\Debug\Squre_Root.Resources.resources
+D:\Neha Bharti\VB(GUI)\Squre Root\Squre Root\obj\Debug\Squre Root.vbproj.GenerateResource.cache
+D:\Neha Bharti\VB(GUI)\Squre Root\Squre Root\obj\Debug\Squre Root.vbproj.CoreCompileInputs.cache
+D:\Neha Bharti\VB(GUI)\Squre Root\Squre Root\obj\Debug\Squre Root.exe
+D:\Neha Bharti\VB(GUI)\Squre Root\Squre Root\obj\Debug\Squre Root.xml
+D:\Neha Bharti\VB(GUI)\Squre Root\Squre Root\obj\Debug\Squre Root.pdb
