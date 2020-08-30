@@ -4,11 +4,12 @@
         Dim F As Integer
         F = 1
 
-
-        For i = 0 To 5 Step -1
+        n = TxtNumber.Text
+        For i = n To 1 Step -1
             F = F * i
         Next
-        TxtFactorial.Text = (" & n & " Is "& F")
+        TxtFactorial.Text = F
+
     End Sub
 
     Private Sub BtnReset_Click(sender As Object, e As EventArgs) Handles BtnReset.Click

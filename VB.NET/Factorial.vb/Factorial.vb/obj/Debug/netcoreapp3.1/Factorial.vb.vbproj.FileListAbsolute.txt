@@ -1,0 +1,13 @@
+D:\Neha Bharti\VB.NET\Factorial.vb\Factorial.vb\bin\Debug\netcoreapp3.1\Factorial.vb.exe
+D:\Neha Bharti\VB.NET\Factorial.vb\Factorial.vb\bin\Debug\netcoreapp3.1\Factorial.vb.deps.json
+D:\Neha Bharti\VB.NET\Factorial.vb\Factorial.vb\bin\Debug\netcoreapp3.1\Factorial.vb.runtimeconfig.json
+D:\Neha Bharti\VB.NET\Factorial.vb\Factorial.vb\bin\Debug\netcoreapp3.1\Factorial.vb.runtimeconfig.dev.json
+D:\Neha Bharti\VB.NET\Factorial.vb\Factorial.vb\bin\Debug\netcoreapp3.1\Factorial.vb.dll
+D:\Neha Bharti\VB.NET\Factorial.vb\Factorial.vb\bin\Debug\netcoreapp3.1\Factorial.vb.pdb
+D:\Neha Bharti\VB.NET\Factorial.vb\Factorial.vb\obj\Debug\netcoreapp3.1\Factorial.vb.vbprojAssemblyReference.cache
+D:\Neha Bharti\VB.NET\Factorial.vb\Factorial.vb\obj\Debug\netcoreapp3.1\Factorial.vb.AssemblyInfoInputs.cache
+D:\Neha Bharti\VB.NET\Factorial.vb\Factorial.vb\obj\Debug\netcoreapp3.1\Factorial.vb.AssemblyInfo.vb
+D:\Neha Bharti\VB.NET\Factorial.vb\Factorial.vb\obj\Debug\netcoreapp3.1\Factorial.vb.vbproj.CoreCompileInputs.cache
+D:\Neha Bharti\VB.NET\Factorial.vb\Factorial.vb\obj\Debug\netcoreapp3.1\Factorial.vb.dll
+D:\Neha Bharti\VB.NET\Factorial.vb\Factorial.vb\obj\Debug\netcoreapp3.1\Factorial.vb.pdb
+D:\Neha Bharti\VB.NET\Factorial.vb\Factorial.vb\obj\Debug\netcoreapp3.1\Factorial.vb.genruntimeconfig.cache
