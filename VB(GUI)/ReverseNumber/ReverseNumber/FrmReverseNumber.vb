@@ -1,12 +1,14 @@
 ﻿Public Class FrmReverseNumber
     Private Sub BtnDone_Click(sender As Object, e As EventArgs) Handles BtnDone.Click
-        Dim n, r As Integer
+        Dim n, r, rev As Integer
+
         n = TxtNumber.Text
-        While (r > 1)
+        While (n > 0)
             r = n Mod 10
+            rev = (rev * 10) + r
             n = n / 10
         End While
-        TxtReverse.Text = ("")
+        TxtReverse.Text = rev
     End Sub
 
     Private Sub BtnReset_Click(sender As Object, e As EventArgs) Handles BtnReset.Click

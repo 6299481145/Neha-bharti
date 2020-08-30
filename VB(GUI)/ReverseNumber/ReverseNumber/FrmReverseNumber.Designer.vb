@@ -33,41 +33,45 @@ Partial Class FrmReverseNumber
         'LblNumber
         '
         Me.LblNumber.AutoSize = True
-        Me.LblNumber.Location = New System.Drawing.Point(67, 49)
+        Me.LblNumber.Font = New System.Drawing.Font("Mongolian Baiti", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblNumber.Location = New System.Drawing.Point(93, 90)
         Me.LblNumber.Name = "LblNumber"
-        Me.LblNumber.Size = New System.Drawing.Size(58, 17)
+        Me.LblNumber.Size = New System.Drawing.Size(78, 20)
         Me.LblNumber.TabIndex = 0
         Me.LblNumber.Text = "Number"
         '
         'LblReverse
         '
         Me.LblReverse.AutoSize = True
-        Me.LblReverse.Location = New System.Drawing.Point(67, 109)
+        Me.LblReverse.Font = New System.Drawing.Font("Mongolian Baiti", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblReverse.Location = New System.Drawing.Point(93, 150)
         Me.LblReverse.Name = "LblReverse"
-        Me.LblReverse.Size = New System.Drawing.Size(61, 17)
+        Me.LblReverse.Size = New System.Drawing.Size(76, 20)
         Me.LblReverse.TabIndex = 1
         Me.LblReverse.Text = "Reverse"
         '
         'TxtNumber
         '
-        Me.TxtNumber.Location = New System.Drawing.Point(184, 44)
+        Me.TxtNumber.Font = New System.Drawing.Font("Mongolian Baiti", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtNumber.Location = New System.Drawing.Point(236, 87)
         Me.TxtNumber.Name = "TxtNumber"
-        Me.TxtNumber.Size = New System.Drawing.Size(100, 22)
+        Me.TxtNumber.Size = New System.Drawing.Size(100, 28)
         Me.TxtNumber.TabIndex = 2
         '
         'TxtReverse
         '
-        Me.TxtReverse.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtReverse.Location = New System.Drawing.Point(184, 104)
+        Me.TxtReverse.Font = New System.Drawing.Font("Mongolian Baiti", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtReverse.Location = New System.Drawing.Point(236, 142)
         Me.TxtReverse.Name = "TxtReverse"
         Me.TxtReverse.ReadOnly = True
-        Me.TxtReverse.Size = New System.Drawing.Size(100, 22)
+        Me.TxtReverse.Size = New System.Drawing.Size(100, 28)
         Me.TxtReverse.TabIndex = 3
         Me.TxtReverse.TabStop = False
         '
         'BtnDone
         '
-        Me.BtnDone.Location = New System.Drawing.Point(103, 169)
+        Me.BtnDone.Font = New System.Drawing.Font("Mongolian Baiti", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnDone.Location = New System.Drawing.Point(129, 210)
         Me.BtnDone.Name = "BtnDone"
         Me.BtnDone.Size = New System.Drawing.Size(75, 33)
         Me.BtnDone.TabIndex = 4
@@ -76,7 +80,8 @@ Partial Class FrmReverseNumber
         '
         'BtnReset
         '
-        Me.BtnReset.Location = New System.Drawing.Point(184, 169)
+        Me.BtnReset.Font = New System.Drawing.Font("Mongolian Baiti", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnReset.Location = New System.Drawing.Point(210, 210)
         Me.BtnReset.Name = "BtnReset"
         Me.BtnReset.Size = New System.Drawing.Size(75, 33)
         Me.BtnReset.TabIndex = 5
@@ -87,7 +92,8 @@ Partial Class FrmReverseNumber
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(354, 280)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(405, 334)
         Me.Controls.Add(Me.BtnReset)
         Me.Controls.Add(Me.BtnDone)
         Me.Controls.Add(Me.TxtReverse)
