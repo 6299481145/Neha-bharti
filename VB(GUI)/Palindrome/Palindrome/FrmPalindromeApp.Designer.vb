@@ -71,9 +71,9 @@ Partial Class FrmPalindromeApp
         'BtnCheck
         '
         Me.BtnCheck.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnCheck.Location = New System.Drawing.Point(136, 220)
+        Me.BtnCheck.Location = New System.Drawing.Point(136, 223)
         Me.BtnCheck.Name = "BtnCheck"
-        Me.BtnCheck.Size = New System.Drawing.Size(89, 45)
+        Me.BtnCheck.Size = New System.Drawing.Size(89, 42)
         Me.BtnCheck.TabIndex = 4
         Me.BtnCheck.Text = "Check"
         Me.BtnCheck.UseVisualStyleBackColor = True
@@ -81,9 +81,9 @@ Partial Class FrmPalindromeApp
         'BtnReset
         '
         Me.BtnReset.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnReset.Location = New System.Drawing.Point(244, 220)
+        Me.BtnReset.Location = New System.Drawing.Point(244, 223)
         Me.BtnReset.Name = "BtnReset"
-        Me.BtnReset.Size = New System.Drawing.Size(93, 45)
+        Me.BtnReset.Size = New System.Drawing.Size(93, 42)
         Me.BtnReset.TabIndex = 5
         Me.BtnReset.Text = "Reset"
         Me.BtnReset.UseVisualStyleBackColor = True
