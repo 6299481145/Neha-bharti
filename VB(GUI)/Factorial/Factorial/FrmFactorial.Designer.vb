@@ -33,50 +33,57 @@ Partial Class FrmFactorial
         'LblNumber
         '
         Me.LblNumber.AutoSize = True
-        Me.LblNumber.Location = New System.Drawing.Point(81, 58)
+        Me.LblNumber.Font = New System.Drawing.Font("Microsoft JhengHei", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblNumber.ForeColor = System.Drawing.Color.Black
+        Me.LblNumber.Location = New System.Drawing.Point(97, 84)
         Me.LblNumber.Name = "LblNumber"
-        Me.LblNumber.Size = New System.Drawing.Size(58, 17)
+        Me.LblNumber.Size = New System.Drawing.Size(87, 24)
         Me.LblNumber.TabIndex = 0
         Me.LblNumber.Text = "Number"
         '
         'LblFactorial
         '
         Me.LblFactorial.AutoSize = True
-        Me.LblFactorial.Location = New System.Drawing.Point(81, 114)
+        Me.LblFactorial.Font = New System.Drawing.Font("Microsoft JhengHei", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblFactorial.Location = New System.Drawing.Point(97, 158)
         Me.LblFactorial.Name = "LblFactorial"
-        Me.LblFactorial.Size = New System.Drawing.Size(62, 17)
+        Me.LblFactorial.Size = New System.Drawing.Size(89, 24)
         Me.LblFactorial.TabIndex = 1
         Me.LblFactorial.Text = "Factorial"
         '
         'TxtNumber
         '
-        Me.TxtNumber.Location = New System.Drawing.Point(202, 53)
+        Me.TxtNumber.Font = New System.Drawing.Font("Microsoft JhengHei", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtNumber.Location = New System.Drawing.Point(240, 81)
         Me.TxtNumber.Name = "TxtNumber"
-        Me.TxtNumber.Size = New System.Drawing.Size(100, 22)
+        Me.TxtNumber.Size = New System.Drawing.Size(100, 31)
         Me.TxtNumber.TabIndex = 2
         '
         'TxtFactorial
         '
-        Me.TxtFactorial.Location = New System.Drawing.Point(202, 109)
+        Me.TxtFactorial.Font = New System.Drawing.Font("Microsoft JhengHei", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtFactorial.Location = New System.Drawing.Point(240, 155)
         Me.TxtFactorial.Name = "TxtFactorial"
-        Me.TxtFactorial.Size = New System.Drawing.Size(100, 22)
+        Me.TxtFactorial.Size = New System.Drawing.Size(100, 31)
         Me.TxtFactorial.TabIndex = 3
         Me.TxtFactorial.TabStop = False
         '
         'BtnFind
         '
-        Me.BtnFind.Location = New System.Drawing.Point(111, 171)
+        Me.BtnFind.Font = New System.Drawing.Font("Microsoft JhengHei", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnFind.Location = New System.Drawing.Point(127, 234)
         Me.BtnFind.Name = "BtnFind"
-        Me.BtnFind.Size = New System.Drawing.Size(75, 23)
+        Me.BtnFind.Size = New System.Drawing.Size(89, 42)
         Me.BtnFind.TabIndex = 4
         Me.BtnFind.Text = "Find"
         Me.BtnFind.UseVisualStyleBackColor = True
         '
         'BtnReset
         '
-        Me.BtnReset.Location = New System.Drawing.Point(192, 171)
+        Me.BtnReset.Font = New System.Drawing.Font("Microsoft JhengHei", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnReset.Location = New System.Drawing.Point(222, 234)
         Me.BtnReset.Name = "BtnReset"
-        Me.BtnReset.Size = New System.Drawing.Size(75, 23)
+        Me.BtnReset.Size = New System.Drawing.Size(88, 42)
         Me.BtnReset.TabIndex = 5
         Me.BtnReset.Text = "Reset"
         Me.BtnReset.UseVisualStyleBackColor = True
@@ -85,7 +92,8 @@ Partial Class FrmFactorial
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(383, 261)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(431, 391)
         Me.Controls.Add(Me.BtnReset)
         Me.Controls.Add(Me.BtnFind)
         Me.Controls.Add(Me.TxtFactorial)

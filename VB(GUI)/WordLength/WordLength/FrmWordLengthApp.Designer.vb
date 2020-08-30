@@ -22,86 +22,94 @@ Partial Class FrmWordLengthApp
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.LblWord = New System.Windows.Forms.Label()
+        Me.LblCharacter = New System.Windows.Forms.Label()
+        Me.TxtWord = New System.Windows.Forms.TextBox()
+        Me.TxtCharacter = New System.Windows.Forms.TextBox()
+        Me.BtnShow = New System.Windows.Forms.Button()
+        Me.BtnReset = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Label1
+        'LblWord
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(99, 73)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(51, 17)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Label1"
+        Me.LblWord.AutoSize = True
+        Me.LblWord.Font = New System.Drawing.Font("Malgun Gothic", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblWord.Location = New System.Drawing.Point(99, 73)
+        Me.LblWord.Name = "LblWord"
+        Me.LblWord.Size = New System.Drawing.Size(62, 25)
+        Me.LblWord.TabIndex = 0
+        Me.LblWord.Text = "Word"
         '
-        'Label2
+        'LblCharacter
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(101, 151)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(51, 17)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Label2"
+        Me.LblCharacter.AutoSize = True
+        Me.LblCharacter.Font = New System.Drawing.Font("Malgun Gothic", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblCharacter.Location = New System.Drawing.Point(101, 151)
+        Me.LblCharacter.Name = "LblCharacter"
+        Me.LblCharacter.Size = New System.Drawing.Size(96, 25)
+        Me.LblCharacter.TabIndex = 1
+        Me.LblCharacter.Text = "Character"
         '
-        'TextBox1
+        'TxtWord
         '
-        Me.TextBox1.Location = New System.Drawing.Point(219, 67)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox1.TabIndex = 2
+        Me.TxtWord.Font = New System.Drawing.Font("Malgun Gothic", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtWord.Location = New System.Drawing.Point(219, 67)
+        Me.TxtWord.Name = "TxtWord"
+        Me.TxtWord.Size = New System.Drawing.Size(100, 31)
+        Me.TxtWord.TabIndex = 2
         '
-        'TextBox2
+        'TxtCharacter
         '
-        Me.TextBox2.Location = New System.Drawing.Point(224, 149)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox2.TabIndex = 3
+        Me.TxtCharacter.Font = New System.Drawing.Font("Malgun Gothic", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtCharacter.Location = New System.Drawing.Point(224, 149)
+        Me.TxtCharacter.Name = "TxtCharacter"
+        Me.TxtCharacter.Size = New System.Drawing.Size(100, 31)
+        Me.TxtCharacter.TabIndex = 3
         '
-        'Button1
+        'BtnShow
         '
-        Me.Button1.Location = New System.Drawing.Point(143, 232)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.BtnShow.Font = New System.Drawing.Font("Malgun Gothic", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnShow.Location = New System.Drawing.Point(143, 232)
+        Me.BtnShow.Name = "BtnShow"
+        Me.BtnShow.Size = New System.Drawing.Size(75, 40)
+        Me.BtnShow.TabIndex = 4
+        Me.BtnShow.Text = "Show"
+        Me.BtnShow.UseVisualStyleBackColor = True
         '
-        'Button2
+        'BtnReset
         '
-        Me.Button2.Location = New System.Drawing.Point(227, 231)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 5
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.BtnReset.Font = New System.Drawing.Font("Malgun Gothic", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnReset.Location = New System.Drawing.Point(227, 231)
+        Me.BtnReset.Name = "BtnReset"
+        Me.BtnReset.Size = New System.Drawing.Size(75, 41)
+        Me.BtnReset.TabIndex = 5
+        Me.BtnReset.Text = "Reset"
+        Me.BtnReset.UseVisualStyleBackColor = True
         '
         'FrmWordLengthApp
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(460, 367)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.BtnReset)
+        Me.Controls.Add(Me.BtnShow)
+        Me.Controls.Add(Me.TxtCharacter)
+        Me.Controls.Add(Me.TxtWord)
+        Me.Controls.Add(Me.LblCharacter)
+        Me.Controls.Add(Me.LblWord)
         Me.Name = "FrmWordLengthApp"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "WordLength"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents LblWord As Label
+    Friend WithEvents LblCharacter As Label
+    Friend WithEvents TxtWord As TextBox
+    Friend WithEvents TxtCharacter As TextBox
+    Friend WithEvents BtnShow As Button
+    Friend WithEvents BtnReset As Button
 End Class
