@@ -22,63 +22,68 @@ Partial Class FrmPalindromeApp
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.LblWord = New System.Windows.Forms.Label()
+        Me.LblNumber = New System.Windows.Forms.Label()
         Me.LblPalindrome = New System.Windows.Forms.Label()
-        Me.TxtWord = New System.Windows.Forms.TextBox()
+        Me.TxtNumber = New System.Windows.Forms.TextBox()
         Me.TxtPalindrome = New System.Windows.Forms.TextBox()
         Me.BtnCheck = New System.Windows.Forms.Button()
         Me.BtnReset = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'LblWord
+        'LblNumber
         '
-        Me.LblWord.AutoSize = True
-        Me.LblWord.Location = New System.Drawing.Point(100, 67)
-        Me.LblWord.Name = "LblWord"
-        Me.LblWord.Size = New System.Drawing.Size(42, 17)
-        Me.LblWord.TabIndex = 0
-        Me.LblWord.Text = "Word"
+        Me.LblNumber.AutoSize = True
+        Me.LblNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblNumber.Location = New System.Drawing.Point(94, 98)
+        Me.LblNumber.Name = "LblNumber"
+        Me.LblNumber.Size = New System.Drawing.Size(85, 24)
+        Me.LblNumber.TabIndex = 0
+        Me.LblNumber.Text = "Number"
         '
         'LblPalindrome
         '
         Me.LblPalindrome.AutoSize = True
-        Me.LblPalindrome.Location = New System.Drawing.Point(103, 127)
+        Me.LblPalindrome.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblPalindrome.Location = New System.Drawing.Point(97, 158)
         Me.LblPalindrome.Name = "LblPalindrome"
-        Me.LblPalindrome.Size = New System.Drawing.Size(87, 17)
+        Me.LblPalindrome.Size = New System.Drawing.Size(128, 24)
         Me.LblPalindrome.TabIndex = 1
         Me.LblPalindrome.Text = "Palindrdome"
         '
-        'TxtWord
+        'TxtNumber
         '
-        Me.TxtWord.Location = New System.Drawing.Point(216, 67)
-        Me.TxtWord.Name = "TxtWord"
-        Me.TxtWord.Size = New System.Drawing.Size(100, 22)
-        Me.TxtWord.TabIndex = 2
+        Me.TxtNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtNumber.Location = New System.Drawing.Point(266, 98)
+        Me.TxtNumber.Name = "TxtNumber"
+        Me.TxtNumber.Size = New System.Drawing.Size(117, 28)
+        Me.TxtNumber.TabIndex = 2
         '
         'TxtPalindrome
         '
-        Me.TxtPalindrome.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtPalindrome.Location = New System.Drawing.Point(216, 125)
+        Me.TxtPalindrome.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtPalindrome.Location = New System.Drawing.Point(266, 158)
         Me.TxtPalindrome.Name = "TxtPalindrome"
         Me.TxtPalindrome.ReadOnly = True
-        Me.TxtPalindrome.Size = New System.Drawing.Size(100, 22)
+        Me.TxtPalindrome.Size = New System.Drawing.Size(117, 28)
         Me.TxtPalindrome.TabIndex = 3
         Me.TxtPalindrome.TabStop = False
         '
         'BtnCheck
         '
-        Me.BtnCheck.Location = New System.Drawing.Point(142, 189)
+        Me.BtnCheck.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnCheck.Location = New System.Drawing.Point(136, 220)
         Me.BtnCheck.Name = "BtnCheck"
-        Me.BtnCheck.Size = New System.Drawing.Size(75, 23)
+        Me.BtnCheck.Size = New System.Drawing.Size(89, 45)
         Me.BtnCheck.TabIndex = 4
         Me.BtnCheck.Text = "Check"
         Me.BtnCheck.UseVisualStyleBackColor = True
         '
         'BtnReset
         '
-        Me.BtnReset.Location = New System.Drawing.Point(224, 189)
+        Me.BtnReset.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnReset.Location = New System.Drawing.Point(244, 220)
         Me.BtnReset.Name = "BtnReset"
-        Me.BtnReset.Size = New System.Drawing.Size(75, 23)
+        Me.BtnReset.Size = New System.Drawing.Size(93, 45)
         Me.BtnReset.TabIndex = 5
         Me.BtnReset.Text = "Reset"
         Me.BtnReset.UseVisualStyleBackColor = True
@@ -87,23 +92,25 @@ Partial Class FrmPalindromeApp
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(417, 301)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(488, 373)
         Me.Controls.Add(Me.BtnReset)
         Me.Controls.Add(Me.BtnCheck)
         Me.Controls.Add(Me.TxtPalindrome)
-        Me.Controls.Add(Me.TxtWord)
+        Me.Controls.Add(Me.TxtNumber)
         Me.Controls.Add(Me.LblPalindrome)
-        Me.Controls.Add(Me.LblWord)
+        Me.Controls.Add(Me.LblNumber)
         Me.Name = "FrmPalindromeApp"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "PlindromeApp"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents LblWord As Label
+    Friend WithEvents LblNumber As Label
     Friend WithEvents LblPalindrome As Label
-    Friend WithEvents TxtWord As TextBox
+    Friend WithEvents TxtNumber As TextBox
     Friend WithEvents TxtPalindrome As TextBox
     Friend WithEvents BtnCheck As Button
     Friend WithEvents BtnReset As Button

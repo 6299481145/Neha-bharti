@@ -10,3 +10,15 @@ D:\Neha-bharti\VBNET\Palindrome\Palindrome\obj\Debug\Palindrome.vbproj.CoreCompi
 D:\Neha-bharti\VBNET\Palindrome\Palindrome\obj\Debug\Palindrome.exe
 D:\Neha-bharti\VBNET\Palindrome\Palindrome\obj\Debug\Palindrome.xml
 D:\Neha-bharti\VBNET\Palindrome\Palindrome\obj\Debug\Palindrome.pdb
+D:\Neha Bharti\VB(GUI)\Palindrome\Palindrome\bin\Debug\Palindrome.exe.config
+D:\Neha Bharti\VB(GUI)\Palindrome\Palindrome\bin\Debug\Palindrome.exe
+D:\Neha Bharti\VB(GUI)\Palindrome\Palindrome\bin\Debug\Palindrome.pdb
+D:\Neha Bharti\VB(GUI)\Palindrome\Palindrome\bin\Debug\Palindrome.xml
+D:\Neha Bharti\VB(GUI)\Palindrome\Palindrome\obj\Debug\Palindrome.vbprojAssemblyReference.cache
+D:\Neha Bharti\VB(GUI)\Palindrome\Palindrome\obj\Debug\Palindrome.FrmPalindromeApp.resources
+D:\Neha Bharti\VB(GUI)\Palindrome\Palindrome\obj\Debug\Palindrome.Resources.resources
+D:\Neha Bharti\VB(GUI)\Palindrome\Palindrome\obj\Debug\Palindrome.vbproj.GenerateResource.cache
+D:\Neha Bharti\VB(GUI)\Palindrome\Palindrome\obj\Debug\Palindrome.vbproj.CoreCompileInputs.cache
+D:\Neha Bharti\VB(GUI)\Palindrome\Palindrome\obj\Debug\Palindrome.exe
+D:\Neha Bharti\VB(GUI)\Palindrome\Palindrome\obj\Debug\Palindrome.xml
+D:\Neha Bharti\VB(GUI)\Palindrome\Palindrome\obj\Debug\Palindrome.pdb
