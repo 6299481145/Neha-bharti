@@ -1,0 +1,13 @@
+D:\Neha Bharti\VB.NET\FirstFileExample.vb\FirstFileExample.vb\bin\Debug\netcoreapp3.1\FirstFileExample.vb.exe
+D:\Neha Bharti\VB.NET\FirstFileExample.vb\FirstFileExample.vb\bin\Debug\netcoreapp3.1\FirstFileExample.vb.deps.json
+D:\Neha Bharti\VB.NET\FirstFileExample.vb\FirstFileExample.vb\bin\Debug\netcoreapp3.1\FirstFileExample.vb.runtimeconfig.json
+D:\Neha Bharti\VB.NET\FirstFileExample.vb\FirstFileExample.vb\bin\Debug\netcoreapp3.1\FirstFileExample.vb.runtimeconfig.dev.json
+D:\Neha Bharti\VB.NET\FirstFileExample.vb\FirstFileExample.vb\bin\Debug\netcoreapp3.1\FirstFileExample.vb.dll
+D:\Neha Bharti\VB.NET\FirstFileExample.vb\FirstFileExample.vb\bin\Debug\netcoreapp3.1\FirstFileExample.vb.pdb
+D:\Neha Bharti\VB.NET\FirstFileExample.vb\FirstFileExample.vb\obj\Debug\netcoreapp3.1\FirstFileExample.vb.vbprojAssemblyReference.cache
+D:\Neha Bharti\VB.NET\FirstFileExample.vb\FirstFileExample.vb\obj\Debug\netcoreapp3.1\FirstFileExample.vb.AssemblyInfoInputs.cache
+D:\Neha Bharti\VB.NET\FirstFileExample.vb\FirstFileExample.vb\obj\Debug\netcoreapp3.1\FirstFileExample.vb.AssemblyInfo.vb
+D:\Neha Bharti\VB.NET\FirstFileExample.vb\FirstFileExample.vb\obj\Debug\netcoreapp3.1\FirstFileExample.vb.vbproj.CoreCompileInputs.cache
+D:\Neha Bharti\VB.NET\FirstFileExample.vb\FirstFileExample.vb\obj\Debug\netcoreapp3.1\FirstFileExample.vb.dll
+D:\Neha Bharti\VB.NET\FirstFileExample.vb\FirstFileExample.vb\obj\Debug\netcoreapp3.1\FirstFileExample.vb.pdb
+D:\Neha Bharti\VB.NET\FirstFileExample.vb\FirstFileExample.vb\obj\Debug\netcoreapp3.1\FirstFileExample.vb.genruntimeconfig.cache
