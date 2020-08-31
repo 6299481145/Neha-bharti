@@ -11,18 +11,19 @@ int main()
 	cin>>p;
 	cout<<"Please enter Rate:";
 	cin>>r;
-	cout<<"Please enter Time";
+	cout<<"Please enter Time:";
 	cin>>t;
 	
 	i=1+(r/100);
 	
+//	ci=power(i,t);
 	ci=1;
 	for(a=1;a<=t;a++)
-	ci=ci*i
+	ci=ci*i;
 	
-//	ci=p*ci-p;
+	ci=p*ci-p;
 	
-	cout<<"compound interest is"<<ci;
-	cout<<"\n"
+	cout<<"compound interest is" <<ci;
+	cout<<"\n";
 	return 0;
 }
