@@ -33,55 +33,60 @@ Partial Class Form1
         'LblYear
         '
         Me.LblYear.AutoSize = True
-        Me.LblYear.Location = New System.Drawing.Point(86, 51)
+        Me.LblYear.Font = New System.Drawing.Font("Microsoft Uighur", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblYear.Location = New System.Drawing.Point(105, 89)
         Me.LblYear.Name = "LblYear"
-        Me.LblYear.Size = New System.Drawing.Size(38, 17)
+        Me.LblYear.Size = New System.Drawing.Size(54, 34)
         Me.LblYear.TabIndex = 0
         Me.LblYear.Text = "Year"
         '
         'LblShow
         '
         Me.LblShow.AutoSize = True
-        Me.LblShow.Location = New System.Drawing.Point(86, 124)
+        Me.LblShow.Font = New System.Drawing.Font("Microsoft Uighur", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblShow.Location = New System.Drawing.Point(105, 162)
         Me.LblShow.Name = "LblShow"
-        Me.LblShow.Size = New System.Drawing.Size(42, 17)
+        Me.LblShow.Size = New System.Drawing.Size(61, 34)
         Me.LblShow.TabIndex = 1
         Me.LblShow.Text = "Show"
         '
         'TxtYear
         '
-        Me.TxtYear.Location = New System.Drawing.Point(205, 51)
+        Me.TxtYear.Font = New System.Drawing.Font("Microsoft Uighur", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtYear.Location = New System.Drawing.Point(224, 89)
         Me.TxtYear.Multiline = True
         Me.TxtYear.Name = "TxtYear"
-        Me.TxtYear.Size = New System.Drawing.Size(119, 29)
+        Me.TxtYear.Size = New System.Drawing.Size(147, 34)
         Me.TxtYear.TabIndex = 2
         '
         'TxtShow
         '
-        Me.TxtShow.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtShow.Font = New System.Drawing.Font("Microsoft Uighur", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtShow.ForeColor = System.Drawing.Color.Green
-        Me.TxtShow.Location = New System.Drawing.Point(205, 124)
+        Me.TxtShow.Location = New System.Drawing.Point(224, 162)
         Me.TxtShow.Multiline = True
         Me.TxtShow.Name = "TxtShow"
         Me.TxtShow.ReadOnly = True
-        Me.TxtShow.Size = New System.Drawing.Size(119, 27)
+        Me.TxtShow.Size = New System.Drawing.Size(147, 34)
         Me.TxtShow.TabIndex = 3
         Me.TxtShow.TabStop = False
         '
         'BtnCheck
         '
-        Me.BtnCheck.Location = New System.Drawing.Point(127, 191)
+        Me.BtnCheck.Font = New System.Drawing.Font("Microsoft Uighur", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnCheck.Location = New System.Drawing.Point(143, 229)
         Me.BtnCheck.Name = "BtnCheck"
-        Me.BtnCheck.Size = New System.Drawing.Size(75, 35)
+        Me.BtnCheck.Size = New System.Drawing.Size(94, 43)
         Me.BtnCheck.TabIndex = 4
         Me.BtnCheck.Text = "Check"
         Me.BtnCheck.UseVisualStyleBackColor = True
         '
         'BtnReset
         '
-        Me.BtnReset.Location = New System.Drawing.Point(205, 191)
+        Me.BtnReset.Font = New System.Drawing.Font("Microsoft Uighur", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnReset.Location = New System.Drawing.Point(240, 229)
         Me.BtnReset.Name = "BtnReset"
-        Me.BtnReset.Size = New System.Drawing.Size(75, 35)
+        Me.BtnReset.Size = New System.Drawing.Size(97, 43)
         Me.BtnReset.TabIndex = 5
         Me.BtnReset.Text = "Reset"
         Me.BtnReset.UseVisualStyleBackColor = True
@@ -90,7 +95,8 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(391, 314)
+        Me.BackColor = System.Drawing.Color.SteelBlue
+        Me.ClientSize = New System.Drawing.Size(514, 396)
         Me.Controls.Add(Me.BtnReset)
         Me.Controls.Add(Me.BtnCheck)
         Me.Controls.Add(Me.TxtShow)

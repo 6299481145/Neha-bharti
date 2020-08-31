@@ -33,52 +33,57 @@ Partial Class FrmWeekNameApp
         'LblNumber
         '
         Me.LblNumber.AutoSize = True
+        Me.LblNumber.Font = New System.Drawing.Font("Microsoft YaHei", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LblNumber.Location = New System.Drawing.Point(85, 66)
         Me.LblNumber.Name = "LblNumber"
-        Me.LblNumber.Size = New System.Drawing.Size(58, 17)
+        Me.LblNumber.Size = New System.Drawing.Size(91, 26)
         Me.LblNumber.TabIndex = 0
         Me.LblNumber.Text = "Number"
         '
         'LblName
         '
         Me.LblName.AutoSize = True
+        Me.LblName.Font = New System.Drawing.Font("Microsoft YaHei", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LblName.Location = New System.Drawing.Point(85, 135)
         Me.LblName.Name = "LblName"
-        Me.LblName.Size = New System.Drawing.Size(45, 17)
+        Me.LblName.Size = New System.Drawing.Size(69, 26)
         Me.LblName.TabIndex = 1
         Me.LblName.Text = "Name"
         '
         'TxtNumber
         '
-        Me.TxtNumber.Location = New System.Drawing.Point(204, 66)
+        Me.TxtNumber.Font = New System.Drawing.Font("Microsoft YaHei", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtNumber.Location = New System.Drawing.Point(235, 66)
         Me.TxtNumber.Name = "TxtNumber"
-        Me.TxtNumber.Size = New System.Drawing.Size(112, 22)
+        Me.TxtNumber.Size = New System.Drawing.Size(112, 31)
         Me.TxtNumber.TabIndex = 2
         '
         'TxtName
         '
-        Me.TxtName.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtName.Location = New System.Drawing.Point(204, 135)
+        Me.TxtName.Font = New System.Drawing.Font("Microsoft YaHei", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtName.Location = New System.Drawing.Point(235, 132)
         Me.TxtName.Name = "TxtName"
         Me.TxtName.ReadOnly = True
-        Me.TxtName.Size = New System.Drawing.Size(112, 22)
+        Me.TxtName.Size = New System.Drawing.Size(112, 31)
         Me.TxtName.TabIndex = 3
         Me.TxtName.TabStop = False
         '
         'BtnShow
         '
-        Me.BtnShow.Location = New System.Drawing.Point(114, 189)
+        Me.BtnShow.Font = New System.Drawing.Font("Microsoft YaHei", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnShow.Location = New System.Drawing.Point(113, 209)
         Me.BtnShow.Name = "BtnShow"
-        Me.BtnShow.Size = New System.Drawing.Size(75, 32)
+        Me.BtnShow.Size = New System.Drawing.Size(90, 42)
         Me.BtnShow.TabIndex = 4
         Me.BtnShow.Text = "Show"
         Me.BtnShow.UseVisualStyleBackColor = True
         '
         'BtnReset
         '
-        Me.BtnReset.Location = New System.Drawing.Point(195, 189)
+        Me.BtnReset.Font = New System.Drawing.Font("Microsoft YaHei", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnReset.Location = New System.Drawing.Point(218, 209)
         Me.BtnReset.Name = "BtnReset"
-        Me.BtnReset.Size = New System.Drawing.Size(75, 32)
+        Me.BtnReset.Size = New System.Drawing.Size(98, 42)
         Me.BtnReset.TabIndex = 5
         Me.BtnReset.Text = "Reset"
         Me.BtnReset.UseVisualStyleBackColor = True
@@ -87,7 +92,8 @@ Partial Class FrmWeekNameApp
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(391, 315)
+        Me.BackColor = System.Drawing.Color.MediumSpringGreen
+        Me.ClientSize = New System.Drawing.Size(451, 349)
         Me.Controls.Add(Me.BtnReset)
         Me.Controls.Add(Me.BtnShow)
         Me.Controls.Add(Me.TxtName)

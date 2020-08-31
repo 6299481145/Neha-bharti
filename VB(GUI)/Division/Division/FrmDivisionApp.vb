@@ -8,7 +8,7 @@
         De = TxtDividend.Text
         Di = TxtDivisior.Text
 
-        Q = De / Di
+        Q = De \ Di
         TxtQuotient.Text = Q
         R = De Mod Di
         TxtRemainder.Text = R

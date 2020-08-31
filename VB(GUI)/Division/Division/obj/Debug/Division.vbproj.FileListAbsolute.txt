@@ -10,3 +10,15 @@ D:\Neha-bharti\VBNET\Division\Division\obj\Debug\Division.vbproj.CoreCompileInpu
 D:\Neha-bharti\VBNET\Division\Division\obj\Debug\Division.exe
 D:\Neha-bharti\VBNET\Division\Division\obj\Debug\Division.xml
 D:\Neha-bharti\VBNET\Division\Division\obj\Debug\Division.pdb
+D:\Neha Bharti\VB(GUI)\Division\Division\bin\Debug\Division.exe.config
+D:\Neha Bharti\VB(GUI)\Division\Division\bin\Debug\Division.exe
+D:\Neha Bharti\VB(GUI)\Division\Division\bin\Debug\Division.pdb
+D:\Neha Bharti\VB(GUI)\Division\Division\bin\Debug\Division.xml
+D:\Neha Bharti\VB(GUI)\Division\Division\obj\Debug\Division.vbprojAssemblyReference.cache
+D:\Neha Bharti\VB(GUI)\Division\Division\obj\Debug\Division.FrmDivisionApp.resources
+D:\Neha Bharti\VB(GUI)\Division\Division\obj\Debug\Division.Resources.resources
+D:\Neha Bharti\VB(GUI)\Division\Division\obj\Debug\Division.vbproj.GenerateResource.cache
+D:\Neha Bharti\VB(GUI)\Division\Division\obj\Debug\Division.vbproj.CoreCompileInputs.cache
+D:\Neha Bharti\VB(GUI)\Division\Division\obj\Debug\Division.exe
+D:\Neha Bharti\VB(GUI)\Division\Division\obj\Debug\Division.xml
+D:\Neha Bharti\VB(GUI)\Division\Division\obj\Debug\Division.pdb

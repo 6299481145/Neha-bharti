@@ -23,7 +23,7 @@ int main()
 	
 	ci=p*ci-p;
 	
-	cout<<"compound interest is" <<ci;
+	cout<<"compound interest is " << ci;
 	cout<<"\n";
 	return 0;
 }

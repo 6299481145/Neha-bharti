@@ -8,7 +8,7 @@
         While (temp > 0)
             r = temp Mod 10
             rev = (rev * 10) + r
-            temp = temp / 10
+            temp = temp \ 10
         End While
         TxtReverse.Text = rev
     End Sub
