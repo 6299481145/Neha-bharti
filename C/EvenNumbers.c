@@ -11,7 +11,7 @@ int main()
 		if(counter%2==0)
 //	while(counter<=100)
 		{
-			printf("%d,counter");
+			printf("%d,",counter);
 		}
        // counter= counter+2;
  	}
