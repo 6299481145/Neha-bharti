@@ -157,7 +157,7 @@ Partial Class FrmMyNotepad
         '
         Me.EditToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UndoToolStripMenuItem, Me.ToolStripMenuItem2, Me.CutToolStripMenuItem, Me.CopyToolStripMenuItem, Me.PasteToolStripMenuItem, Me.DeleteToolStripMenuItem, Me.ToolStripMenuItem3, Me.SearchWithBingToolStripMenuItem, Me.FindToolStripMenuItem, Me.FindNextToolStripMenuItem, Me.FindPreviousToolStripMenuItem, Me.ReplaceToolStripMenuItem, Me.GoToToolStripMenuItem, Me.ToolStripMenuItem4, Me.SelectAllToolStripMenuItem, Me.TimeDateToolStripMenuItem})
         Me.EditToolStripMenuItem.Name = "EditToolStripMenuItem"
-        Me.EditToolStripMenuItem.Size = New System.Drawing.Size(49, 26)
+        Me.EditToolStripMenuItem.Size = New System.Drawing.Size(49, 24)
         Me.EditToolStripMenuItem.Text = "&Edit"
         '
         'UndoToolStripMenuItem
@@ -270,7 +270,7 @@ Partial Class FrmMyNotepad
         '
         Me.FormatToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.WordWrapToolStripMenuItem, Me.FontToolStripMenuItem})
         Me.FormatToolStripMenuItem.Name = "FormatToolStripMenuItem"
-        Me.FormatToolStripMenuItem.Size = New System.Drawing.Size(70, 26)
+        Me.FormatToolStripMenuItem.Size = New System.Drawing.Size(70, 24)
         Me.FormatToolStripMenuItem.Text = "F&ormat"
         '
         'WordWrapToolStripMenuItem
@@ -289,14 +289,14 @@ Partial Class FrmMyNotepad
         '
         Me.ViewToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ZoomToolStripMenuItem, Me.ToolStripSeparator1, Me.StatusBarToolStripMenuItem})
         Me.ViewToolStripMenuItem.Name = "ViewToolStripMenuItem"
-        Me.ViewToolStripMenuItem.Size = New System.Drawing.Size(55, 26)
+        Me.ViewToolStripMenuItem.Size = New System.Drawing.Size(55, 24)
         Me.ViewToolStripMenuItem.Text = "&View"
         '
         'ZoomToolStripMenuItem
         '
         Me.ZoomToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ZoomInToolStripMenuItem, Me.ZoomOutToolStripMenuItem, Me.RestoreDefaultZoomToolStripMenuItem})
         Me.ZoomToolStripMenuItem.Name = "ZoomToolStripMenuItem"
-        Me.ZoomToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ZoomToolStripMenuItem.Size = New System.Drawing.Size(158, 26)
         Me.ZoomToolStripMenuItem.Text = "Zoom"
         '
         'ZoomInToolStripMenuItem
@@ -321,44 +321,44 @@ Partial Class FrmMyNotepad
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(221, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(155, 6)
         '
         'StatusBarToolStripMenuItem
         '
         Me.StatusBarToolStripMenuItem.Checked = True
         Me.StatusBarToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked
         Me.StatusBarToolStripMenuItem.Name = "StatusBarToolStripMenuItem"
-        Me.StatusBarToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.StatusBarToolStripMenuItem.Size = New System.Drawing.Size(158, 26)
         Me.StatusBarToolStripMenuItem.Text = "Status Bar"
         '
         'HelpToolStripMenuItem
         '
         Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ViewHelpToolStripMenuItem, Me.SendFeedbackToolStripMenuItem, Me.ToolStripMenuItem5, Me.AboutNotepadToolStripMenuItem})
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(55, 26)
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(55, 24)
         Me.HelpToolStripMenuItem.Text = "&Help"
         '
         'ViewHelpToolStripMenuItem
         '
         Me.ViewHelpToolStripMenuItem.Name = "ViewHelpToolStripMenuItem"
-        Me.ViewHelpToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ViewHelpToolStripMenuItem.Size = New System.Drawing.Size(196, 26)
         Me.ViewHelpToolStripMenuItem.Text = "View &Help"
         '
         'SendFeedbackToolStripMenuItem
         '
         Me.SendFeedbackToolStripMenuItem.Name = "SendFeedbackToolStripMenuItem"
-        Me.SendFeedbackToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.SendFeedbackToolStripMenuItem.Size = New System.Drawing.Size(196, 26)
         Me.SendFeedbackToolStripMenuItem.Text = "Send &Feedback"
         '
         'ToolStripMenuItem5
         '
         Me.ToolStripMenuItem5.Name = "ToolStripMenuItem5"
-        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(221, 6)
+        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(193, 6)
         '
         'AboutNotepadToolStripMenuItem
         '
         Me.AboutNotepadToolStripMenuItem.Name = "AboutNotepadToolStripMenuItem"
-        Me.AboutNotepadToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.AboutNotepadToolStripMenuItem.Size = New System.Drawing.Size(196, 26)
         Me.AboutNotepadToolStripMenuItem.Text = "&About Notepad"
         '
         'TxtEditingArea
