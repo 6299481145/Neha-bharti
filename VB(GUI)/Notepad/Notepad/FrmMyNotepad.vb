@@ -60,14 +60,14 @@ Public Class FrmMyNotepad
         Dim fd As New FontDialog
         If (fd.ShowDialog() = DialogResult.OK) Then
             TxtEditingArea.Font = fd.Font
-            Dim sw As New StreamWriter("MyNotepad.ini")
+            Dim sw As New StreamWriter("Notepad.ini")
             sw.WriteLine(fd.Font)
             sw.close()
         End If
     End Sub
 
     Private Sub FrmMyNotepad_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim sr As New StreamReader("MyNotepad.ini")
+        Dim sr As New StreamReader("Notepad.ini")
         Dim myfont As String = sr.ReadLine()
         sr.close()
         Dim searchchar As Char() = {"=", ","}
