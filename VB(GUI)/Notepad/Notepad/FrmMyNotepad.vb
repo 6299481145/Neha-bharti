@@ -28,6 +28,8 @@ Public Class FrmMyNotepad
             ElseIf (result = 7) Then
                 TxtEditingArea.Clear()
             End If
+        Else
+            OpenFile()
         End If
     End Sub
     Private Sub OpenFile()
@@ -36,6 +38,7 @@ Public Class FrmMyNotepad
         If (ofd.ShowDialog() = DialogResult.OK) Then
             Dim sr As New StreamReader(ofd.FileName)
             TxtEditingArea.Text = sr.ReadLine()
+            Me.Text = ofd.FileName
             sr.close()
         End If
     End Sub
@@ -74,6 +77,10 @@ Public Class FrmMyNotepad
         Dim fonts As String() = myfont.Split(searchchar, 5)
 
         TxtEditingArea.Font = New Font(fonts(1), fonts(3))
+    End Sub
+
+    Private Sub TxtEditingArea_TextChanged(sender As Object, e As EventArgs) Handles TxtEditingArea.TextChanged
+        Me.Text = "*" & Me.Text
     End Sub
 End Class
 

@@ -276,13 +276,13 @@ Partial Class FrmMyNotepad
         'WordWrapToolStripMenuItem
         '
         Me.WordWrapToolStripMenuItem.Name = "WordWrapToolStripMenuItem"
-        Me.WordWrapToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.WordWrapToolStripMenuItem.Size = New System.Drawing.Size(168, 26)
         Me.WordWrapToolStripMenuItem.Text = "Word &Wrap"
         '
         'FontToolStripMenuItem
         '
         Me.FontToolStripMenuItem.Name = "FontToolStripMenuItem"
-        Me.FontToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.FontToolStripMenuItem.Size = New System.Drawing.Size(168, 26)
         Me.FontToolStripMenuItem.Text = "&Font..."
         '
         'ViewToolStripMenuItem
@@ -378,7 +378,7 @@ Partial Class FrmMyNotepad
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "FrmMyNotepad"
-        Me.Text = "Notepad"
+        Me.Text = " Text - Notepad"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
