@@ -1,0 +1,12 @@
+D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\bin\Debug\ClinicManagementSystem.exe.config
+D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\bin\Debug\ClinicManagementSystem.exe
+D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\bin\Debug\ClinicManagementSystem.pdb
+D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\bin\Debug\ClinicManagementSystem.xml
+D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.vbprojAssemblyReference.cache
+D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.FrmMDI.resources
+D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.Resources.resources
+D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.vbproj.GenerateResource.cache
+D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.vbproj.CoreCompileInputs.cache
+D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.exe
+D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.xml
+D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.pdb
