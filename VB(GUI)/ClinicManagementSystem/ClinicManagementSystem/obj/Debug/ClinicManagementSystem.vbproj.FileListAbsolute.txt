@@ -10,3 +10,9 @@ D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\C
 D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.exe
 D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.xml
 D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.pdb
+D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.FrmNewDoctor.resources
+D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.FrmEditAppointment.resources
+D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.FrmEditDoctor.resources
+D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.FrmEditPatient.resources
+D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.FrmNewAppointment.resources
+D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.FrmNewPatient.resources

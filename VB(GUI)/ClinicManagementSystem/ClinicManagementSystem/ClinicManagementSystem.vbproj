@@ -73,11 +73,47 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmEditAppointment.Designer.vb">
+      <DependentUpon>FrmEditAppointment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditAppointment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditDoctor.Designer.vb">
+      <DependentUpon>FrmEditDoctor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditDoctor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditPatient.Designer.vb">
+      <DependentUpon>FrmEditPatient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditPatient.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmMDI.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmMDI.Designer.vb">
       <DependentUpon>FrmMDI.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewAppointment.Designer.vb">
+      <DependentUpon>FrmNewAppointment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewAppointment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewDoctor.Designer.vb">
+      <DependentUpon>FrmNewDoctor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewDoctor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewPatient.Designer.vb">
+      <DependentUpon>FrmNewPatient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewPatient.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -97,8 +133,26 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FrmEditAppointment.resx">
+      <DependentUpon>FrmEditAppointment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditDoctor.resx">
+      <DependentUpon>FrmEditDoctor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditPatient.resx">
+      <DependentUpon>FrmEditPatient.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMDI.resx">
       <DependentUpon>FrmMDI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewAppointment.resx">
+      <DependentUpon>FrmNewAppointment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewDoctor.resx">
+      <DependentUpon>FrmNewDoctor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewPatient.resx">
+      <DependentUpon>FrmNewPatient.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

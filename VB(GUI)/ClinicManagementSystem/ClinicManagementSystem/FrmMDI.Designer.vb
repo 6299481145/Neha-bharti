@@ -24,19 +24,19 @@ Partial Class FrmMDI
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.MasterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TransationToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DoctorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PatientToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.BedToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.StaffToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NewPatientToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EditPatientToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NewDoctorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EditDoctorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PatientToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NewEditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EditPatientToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BedToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.StaffToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TransationToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NewPatientToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NewAppoitmentToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EditAppoitmentToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EditPatientToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -57,6 +57,56 @@ Partial Class FrmMDI
         Me.MasterToolStripMenuItem.Size = New System.Drawing.Size(68, 24)
         Me.MasterToolStripMenuItem.Text = "Master"
         '
+        'DoctorToolStripMenuItem
+        '
+        Me.DoctorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewDoctorToolStripMenuItem, Me.EditDoctorToolStripMenuItem})
+        Me.DoctorToolStripMenuItem.Name = "DoctorToolStripMenuItem"
+        Me.DoctorToolStripMenuItem.Size = New System.Drawing.Size(138, 26)
+        Me.DoctorToolStripMenuItem.Text = "Doctor"
+        '
+        'NewDoctorToolStripMenuItem
+        '
+        Me.NewDoctorToolStripMenuItem.Name = "NewDoctorToolStripMenuItem"
+        Me.NewDoctorToolStripMenuItem.Size = New System.Drawing.Size(172, 26)
+        Me.NewDoctorToolStripMenuItem.Text = "New Doctor"
+        '
+        'EditDoctorToolStripMenuItem
+        '
+        Me.EditDoctorToolStripMenuItem.Name = "EditDoctorToolStripMenuItem"
+        Me.EditDoctorToolStripMenuItem.Size = New System.Drawing.Size(172, 26)
+        Me.EditDoctorToolStripMenuItem.Text = "Edit Doctor"
+        '
+        'PatientToolStripMenuItem
+        '
+        Me.PatientToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewEditToolStripMenuItem, Me.EditPatientToolStripMenuItem1})
+        Me.PatientToolStripMenuItem.Name = "PatientToolStripMenuItem"
+        Me.PatientToolStripMenuItem.Size = New System.Drawing.Size(138, 26)
+        Me.PatientToolStripMenuItem.Text = "Patient"
+        '
+        'NewEditToolStripMenuItem
+        '
+        Me.NewEditToolStripMenuItem.Name = "NewEditToolStripMenuItem"
+        Me.NewEditToolStripMenuItem.Size = New System.Drawing.Size(171, 26)
+        Me.NewEditToolStripMenuItem.Text = "New Patient"
+        '
+        'EditPatientToolStripMenuItem1
+        '
+        Me.EditPatientToolStripMenuItem1.Name = "EditPatientToolStripMenuItem1"
+        Me.EditPatientToolStripMenuItem1.Size = New System.Drawing.Size(171, 26)
+        Me.EditPatientToolStripMenuItem1.Text = "Edit Patient"
+        '
+        'BedToolStripMenuItem
+        '
+        Me.BedToolStripMenuItem.Name = "BedToolStripMenuItem"
+        Me.BedToolStripMenuItem.Size = New System.Drawing.Size(138, 26)
+        Me.BedToolStripMenuItem.Text = "Bed"
+        '
+        'StaffToolStripMenuItem
+        '
+        Me.StaffToolStripMenuItem.Name = "StaffToolStripMenuItem"
+        Me.StaffToolStripMenuItem.Size = New System.Drawing.Size(138, 26)
+        Me.StaffToolStripMenuItem.Text = "Staff"
+        '
         'TransationToolStripMenuItem
         '
         Me.TransationToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewPatientToolStripMenuItem, Me.EditPatientToolStripMenuItem})
@@ -64,80 +114,30 @@ Partial Class FrmMDI
         Me.TransationToolStripMenuItem.Size = New System.Drawing.Size(91, 24)
         Me.TransationToolStripMenuItem.Text = "Transation"
         '
-        'DoctorToolStripMenuItem
-        '
-        Me.DoctorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewDoctorToolStripMenuItem, Me.EditDoctorToolStripMenuItem})
-        Me.DoctorToolStripMenuItem.Name = "DoctorToolStripMenuItem"
-        Me.DoctorToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
-        Me.DoctorToolStripMenuItem.Text = "Doctor"
-        '
-        'PatientToolStripMenuItem
-        '
-        Me.PatientToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewEditToolStripMenuItem, Me.EditPatientToolStripMenuItem1})
-        Me.PatientToolStripMenuItem.Name = "PatientToolStripMenuItem"
-        Me.PatientToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
-        Me.PatientToolStripMenuItem.Text = "Patient"
-        '
-        'BedToolStripMenuItem
-        '
-        Me.BedToolStripMenuItem.Name = "BedToolStripMenuItem"
-        Me.BedToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
-        Me.BedToolStripMenuItem.Text = "Bed"
-        '
-        'StaffToolStripMenuItem
-        '
-        Me.StaffToolStripMenuItem.Name = "StaffToolStripMenuItem"
-        Me.StaffToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
-        Me.StaffToolStripMenuItem.Text = "Staff"
-        '
         'NewPatientToolStripMenuItem
         '
         Me.NewPatientToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewAppoitmentToolStripMenuItem, Me.EditAppoitmentToolStripMenuItem})
         Me.NewPatientToolStripMenuItem.Name = "NewPatientToolStripMenuItem"
-        Me.NewPatientToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.NewPatientToolStripMenuItem.Size = New System.Drawing.Size(172, 26)
         Me.NewPatientToolStripMenuItem.Text = "Appoitment"
-        '
-        'EditPatientToolStripMenuItem
-        '
-        Me.EditPatientToolStripMenuItem.Name = "EditPatientToolStripMenuItem"
-        Me.EditPatientToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
-        Me.EditPatientToolStripMenuItem.Text = "Edit Patient"
-        '
-        'NewDoctorToolStripMenuItem
-        '
-        Me.NewDoctorToolStripMenuItem.Name = "NewDoctorToolStripMenuItem"
-        Me.NewDoctorToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
-        Me.NewDoctorToolStripMenuItem.Text = "New Doctor"
-        '
-        'EditDoctorToolStripMenuItem
-        '
-        Me.EditDoctorToolStripMenuItem.Name = "EditDoctorToolStripMenuItem"
-        Me.EditDoctorToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
-        Me.EditDoctorToolStripMenuItem.Text = "Edit Doctor"
-        '
-        'NewEditToolStripMenuItem
-        '
-        Me.NewEditToolStripMenuItem.Name = "NewEditToolStripMenuItem"
-        Me.NewEditToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
-        Me.NewEditToolStripMenuItem.Text = "New Patient"
-        '
-        'EditPatientToolStripMenuItem1
-        '
-        Me.EditPatientToolStripMenuItem1.Name = "EditPatientToolStripMenuItem1"
-        Me.EditPatientToolStripMenuItem1.Size = New System.Drawing.Size(224, 26)
-        Me.EditPatientToolStripMenuItem1.Text = "Edit Patient"
         '
         'NewAppoitmentToolStripMenuItem
         '
         Me.NewAppoitmentToolStripMenuItem.Name = "NewAppoitmentToolStripMenuItem"
-        Me.NewAppoitmentToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.NewAppoitmentToolStripMenuItem.Size = New System.Drawing.Size(206, 26)
         Me.NewAppoitmentToolStripMenuItem.Text = "New Appoitment"
         '
         'EditAppoitmentToolStripMenuItem
         '
         Me.EditAppoitmentToolStripMenuItem.Name = "EditAppoitmentToolStripMenuItem"
-        Me.EditAppoitmentToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.EditAppoitmentToolStripMenuItem.Size = New System.Drawing.Size(206, 26)
         Me.EditAppoitmentToolStripMenuItem.Text = "Edit Appoitment"
+        '
+        'EditPatientToolStripMenuItem
+        '
+        Me.EditPatientToolStripMenuItem.Name = "EditPatientToolStripMenuItem"
+        Me.EditPatientToolStripMenuItem.Size = New System.Drawing.Size(172, 26)
+        Me.EditPatientToolStripMenuItem.Text = "Edit Patient"
         '
         'FrmMDI
         '
@@ -149,6 +149,7 @@ Partial Class FrmMDI
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "FrmMDI"
         Me.Text = "Clinic Management System v1.0"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
