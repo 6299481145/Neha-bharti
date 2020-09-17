@@ -86,5 +86,29 @@ Public Class FrmMyNotepad
     Private Sub TxtEditingArea_TextChanged(sender As Object, e As EventArgs) Handles TxtEditingArea.TextChanged
         Me.Text = "*" & Me.Text
     End Sub
+
+    Private Sub UndoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UndoToolStripMenuItem.Click
+        TxtEditingArea.Undo()
+    End Sub
+
+    Private Sub CutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CutToolStripMenuItem.Click
+        TxtEditingArea.Cut()
+    End Sub
+
+    Private Sub CopyToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CopyToolStripMenuItem.Click
+        TxtEditingArea.Copy()
+    End Sub
+
+    Private Sub PasteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PasteToolStripMenuItem.Click
+        TxtEditingArea.Paste()
+    End Sub
+
+    Private Sub TimeDateToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TimeDateToolStripMenuItem.Click
+
+        TxtEditingArea.Text() = Now()
+        'TxtEditingArea.Text() = Today.Date()
+
+
+    End Sub
 End Class
 
