@@ -296,7 +296,7 @@ Partial Class FrmMyNotepad
         '
         Me.ZoomToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ZoomInToolStripMenuItem, Me.ZoomOutToolStripMenuItem, Me.RestoreDefaultZoomToolStripMenuItem})
         Me.ZoomToolStripMenuItem.Name = "ZoomToolStripMenuItem"
-        Me.ZoomToolStripMenuItem.Size = New System.Drawing.Size(158, 26)
+        Me.ZoomToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.ZoomToolStripMenuItem.Text = "Zoom"
         '
         'ZoomInToolStripMenuItem

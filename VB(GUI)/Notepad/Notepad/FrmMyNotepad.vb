@@ -106,9 +106,17 @@ Public Class FrmMyNotepad
     Private Sub TimeDateToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TimeDateToolStripMenuItem.Click
 
         TxtEditingArea.Text() = Now()
-        'TxtEditingArea.Text() = Today.Date()
+        '  TxtEditingArea.Text() = Today.Date()
 
 
+    End Sub
+
+    Private Sub DeleteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DeleteToolStripMenuItem.Click
+        ' TxtEditingArea.
+    End Sub
+
+    Private Sub ZoomInToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ZoomInToolStripMenuItem.Click
+        ' TxtEditingArea.Text
     End Sub
 End Class
 
