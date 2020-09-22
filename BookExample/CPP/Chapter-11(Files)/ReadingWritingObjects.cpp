@@ -48,6 +48,8 @@ int main()
 		item[i].readdata();
 		file.write((char*) &item[i], sizeof(item[i]));    //reading object from file
 	}
+	file.seekg(0);
+	
 	cout<<endl<<"OUTPUT"<<endl<<endl;
 	for(int i=0;i<3;i++)
 	{
