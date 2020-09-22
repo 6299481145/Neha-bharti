@@ -46,12 +46,12 @@ int main()
 	for(int i=0;i<3;i++)
 	{
 		item[i].readdata();
-		file.write((char*) &item[i], sizeof(item[i]));
+		file.write((char*) &item[i], sizeof(item[i]));    //reading object from file
 	}
 	cout<<endl<<"OUTPUT"<<endl<<endl;
 	for(int i=0;i<3;i++)
 	{
-		file.read((char*) &item[i], sizeof(item[i]));
+		file.read((char*) &item[i], sizeof(item[i]));      //writing object from file
 		item[i].writedata();
 	}
 	file.close();
