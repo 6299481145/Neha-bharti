@@ -32,7 +32,7 @@ Partial Class FrmNewDoctor
         Me.RdbMale = New System.Windows.Forms.RadioButton()
         Me.RdbFemale = New System.Windows.Forms.RadioButton()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.DtpDateOfBirth = New System.Windows.Forms.DateTimePicker()
         Me.TxtContactNo = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.TxtEmail = New System.Windows.Forms.TextBox()
@@ -109,6 +109,7 @@ Partial Class FrmNewDoctor
         'RdbMale
         '
         Me.RdbMale.AutoSize = True
+        Me.RdbMale.Checked = True
         Me.RdbMale.Location = New System.Drawing.Point(179, 125)
         Me.RdbMale.Name = "RdbMale"
         Me.RdbMale.Size = New System.Drawing.Size(59, 21)
@@ -124,7 +125,6 @@ Partial Class FrmNewDoctor
         Me.RdbFemale.Name = "RdbFemale"
         Me.RdbFemale.Size = New System.Drawing.Size(75, 21)
         Me.RdbFemale.TabIndex = 8
-        Me.RdbFemale.TabStop = True
         Me.RdbFemale.Text = "Female"
         Me.RdbFemale.UseVisualStyleBackColor = True
         '
@@ -137,13 +137,13 @@ Partial Class FrmNewDoctor
         Me.Label5.TabIndex = 9
         Me.Label5.Text = "Date of Birth"
         '
-        'DateTimePicker1
+        'DtpDateOfBirth
         '
-        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker1.Location = New System.Drawing.Point(180, 171)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(109, 22)
-        Me.DateTimePicker1.TabIndex = 10
+        Me.DtpDateOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DtpDateOfBirth.Location = New System.Drawing.Point(180, 171)
+        Me.DtpDateOfBirth.Name = "DtpDateOfBirth"
+        Me.DtpDateOfBirth.Size = New System.Drawing.Size(109, 22)
+        Me.DtpDateOfBirth.TabIndex = 10
         '
         'TxtContactNo
         '
@@ -275,7 +275,7 @@ Partial Class FrmNewDoctor
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.TxtContactNo)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.DateTimePicker1)
+        Me.Controls.Add(Me.DtpDateOfBirth)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.RdbFemale)
         Me.Controls.Add(Me.RdbMale)
@@ -304,7 +304,7 @@ Partial Class FrmNewDoctor
     Friend WithEvents RdbMale As RadioButton
     Friend WithEvents RdbFemale As RadioButton
     Friend WithEvents Label5 As Label
-    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents DtpDateOfBirth As DateTimePicker
     Friend WithEvents TxtContactNo As TextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents TxtEmail As TextBox
