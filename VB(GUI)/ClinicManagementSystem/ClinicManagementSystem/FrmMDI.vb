@@ -1,11 +1,5 @@
 ﻿Public Class FrmMDI
-    Private Sub NewEditToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewEditToolStripMenuItem.Click
-        FrmEditPatient.Show()
-    End Sub
 
-    Private Sub NewPatientToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewPatientToolStripMenuItem.Click
-        FrmNewPatient.Show()
-    End Sub
 
     Private Sub NewDoctorToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewDoctorToolStripMenuItem.Click
         FrmNewDoctor.Show()
@@ -21,5 +15,9 @@
 
     Private Sub EditAppoitmentToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EditAppoitmentToolStripMenuItem.Click
         FrmEditAppointment.Show()
+    End Sub
+
+    Private Sub NewEditToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewEditToolStripMenuItem.Click
+        FrmNewPatient.Show()
     End Sub
 End Class

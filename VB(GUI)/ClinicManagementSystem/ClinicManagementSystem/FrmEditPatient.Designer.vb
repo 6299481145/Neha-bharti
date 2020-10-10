@@ -30,7 +30,7 @@ Partial Class FrmEditPatient
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Name = "FrmEditPatient"
-        Me.Text = "FrmEditPatient"
+        Me.Text = "EditPatient"
         Me.ResumeLayout(False)
 
     End Sub

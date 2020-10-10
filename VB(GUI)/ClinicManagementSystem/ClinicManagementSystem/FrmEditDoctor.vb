@@ -15,13 +15,13 @@ Public Class FrmEditDoctor
         cmd.CommandText = "SELECT *FROM Doctor WHERE doctor_id='" & TxtDoctorId.Text & "'"
         dr = cmd.ExecuteReader()
         dr.Read()
-        TxtName.Text = dr("doctor_name")
+        TxtName.Text = dr("name")
         If (dr("gender")) = "M" Then
             RdbMale.Checked = True
         Else
             RdbFemale.Checked = True
         End If
-        DtpDateOfBirth.Value = dr("date_Of_birth")
+        DtpDateOfBirth.Value = dr("DOB")
         dr.Close()
         con.Close()
     End Sub

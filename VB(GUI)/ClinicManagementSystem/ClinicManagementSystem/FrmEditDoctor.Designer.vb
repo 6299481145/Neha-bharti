@@ -272,7 +272,7 @@ Partial Class FrmEditDoctor
         '
         Me.BtnDelete.Location = New System.Drawing.Point(419, 450)
         Me.BtnDelete.Name = "BtnDelete"
-        Me.BtnDelete.Size = New System.Drawing.Size(75, 23)
+        Me.BtnDelete.Size = New System.Drawing.Size(75, 31)
         Me.BtnDelete.TabIndex = 49
         Me.BtnDelete.Text = "Delete"
         Me.BtnDelete.UseVisualStyleBackColor = True
@@ -309,7 +309,7 @@ Partial Class FrmEditDoctor
         Me.Controls.Add(Me.TxtDoctorId)
         Me.Controls.Add(Me.Label1)
         Me.Name = "FrmEditDoctor"
-        Me.Text = "FrmEditDoctor"
+        Me.Text = "EditDoctor"
         CType(Me.PicPhoto, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
