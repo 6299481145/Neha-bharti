@@ -37,6 +37,7 @@ Public Class FrmNewPatient
         Dim DT As New DataTable()
         Dim sqlDA As New SqlDataAdapter()
         Dim sqlCB As New SqlCommandBuilder(sqlDA)
+        Dim DR As DataRow
 
         Con.Open()
         cmd.Connection = Con
@@ -44,10 +45,20 @@ Public Class FrmNewPatient
         sqlDA.SelectCommand = cmd
         sqlDA.Fill(DT)
 
-        DT.Rows.Add(DT.NewRow())
-        DT.Rows(0).Item("patient_id") = TxtPatientId.Text
+        DR = DT.NewRow()
+        DR("patient_id") = TxtPatientId.Text
+        DR("patient_name") = TxtName.Text
 
-        sqlDA.Update(DT)
+        If (RdbMale.Checked) Then
+            DR("gender") = "M"
+        Else
+            DR("gender") = "F"
+        End If
+        DR("date_of_birth") = DtpDateOfBirth.Value.Date
+
+        DT.Rows.Add(DR)
+
+        sqlDA.Update(DT)     'Adding DR to DT
 
         Con.Close()
 

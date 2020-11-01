@@ -35,7 +35,7 @@ Public Class FrmEditDoctor
         End If
         con.Open()
         cmd.Connection = con
-        cmd.CommandText = "UPDATE Doctor SET doctor_name='" & TxtName.Text & "', gender='" & g & "'WHERE doctor _id ='" & TxtDoctorId.Text & "'"
+        cmd.CommandText = "UPDATE Doctor SET name='" & TxtName.Text & "', Gender ='" & g & "'WHERE doctor_id ='" & TxtDoctorId.Text & "'"
         cmd.ExecuteNonQuery()
         con.Close()
 
