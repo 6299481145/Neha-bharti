@@ -163,6 +163,7 @@ Partial Class FrmMain
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "FrmMain"
         Me.Text = "Bank Management System v2.0"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
