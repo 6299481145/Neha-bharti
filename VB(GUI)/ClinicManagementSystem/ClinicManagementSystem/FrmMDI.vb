@@ -17,7 +17,15 @@
         FrmEditAppointment.Show()
     End Sub
 
-    Private Sub NewEditToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewEditToolStripMenuItem.Click
+    Private Sub NewPatientToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewEditToolStripMenuItem.Click
         FrmNewPatient.Show()
+    End Sub
+
+    Private Sub FrmMDI_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub EditPatientToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles EditPatientToolStripMenuItem1.Click
+        FrmEditPatient.Show()
     End Sub
 End Class

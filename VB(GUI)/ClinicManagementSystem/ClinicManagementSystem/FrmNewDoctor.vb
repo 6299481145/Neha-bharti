@@ -87,4 +87,8 @@ Public Class FrmNewDoctor
         TxtName.Focus()
 
     End Sub
+
+    Private Sub TxtDateOfJoining_TextChanged(sender As Object, e As EventArgs) Handles TxtDateOfJoining.TextChanged
+
+    End Sub
 End Class

@@ -46,7 +46,7 @@ Partial Class FrmMDI
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MasterToolStripMenuItem, Me.TransationToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(800, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(800, 30)
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -54,14 +54,14 @@ Partial Class FrmMDI
         '
         Me.MasterToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DoctorToolStripMenuItem, Me.PatientToolStripMenuItem, Me.BedToolStripMenuItem, Me.StaffToolStripMenuItem})
         Me.MasterToolStripMenuItem.Name = "MasterToolStripMenuItem"
-        Me.MasterToolStripMenuItem.Size = New System.Drawing.Size(68, 24)
+        Me.MasterToolStripMenuItem.Size = New System.Drawing.Size(68, 26)
         Me.MasterToolStripMenuItem.Text = "Master"
         '
         'DoctorToolStripMenuItem
         '
         Me.DoctorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewDoctorToolStripMenuItem, Me.EditDoctorToolStripMenuItem})
         Me.DoctorToolStripMenuItem.Name = "DoctorToolStripMenuItem"
-        Me.DoctorToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.DoctorToolStripMenuItem.Size = New System.Drawing.Size(138, 26)
         Me.DoctorToolStripMenuItem.Text = "Doctor"
         '
         'NewDoctorToolStripMenuItem
@@ -98,13 +98,13 @@ Partial Class FrmMDI
         'BedToolStripMenuItem
         '
         Me.BedToolStripMenuItem.Name = "BedToolStripMenuItem"
-        Me.BedToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.BedToolStripMenuItem.Size = New System.Drawing.Size(138, 26)
         Me.BedToolStripMenuItem.Text = "Bed"
         '
         'StaffToolStripMenuItem
         '
         Me.StaffToolStripMenuItem.Name = "StaffToolStripMenuItem"
-        Me.StaffToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.StaffToolStripMenuItem.Size = New System.Drawing.Size(138, 26)
         Me.StaffToolStripMenuItem.Text = "Staff"
         '
         'TransationToolStripMenuItem

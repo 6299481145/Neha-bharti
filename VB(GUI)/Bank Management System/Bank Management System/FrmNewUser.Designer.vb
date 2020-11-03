@@ -56,26 +56,27 @@ Partial Class FrmNewUser
         '
         'CboState
         '
+        Me.CboState.Font = New System.Drawing.Font("Modern No. 20", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CboState.FormattingEnabled = True
         Me.CboState.Items.AddRange(New Object() {"Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Meghalaya", "Mizoram", "Manipur", "Maharashtra", "Madhya Pradesh"})
         Me.CboState.Location = New System.Drawing.Point(207, 525)
         Me.CboState.Name = "CboState"
-        Me.CboState.Size = New System.Drawing.Size(121, 24)
+        Me.CboState.Size = New System.Drawing.Size(221, 30)
         Me.CboState.TabIndex = 75
         '
         'TxtDateOfJoining
         '
         Me.TxtDateOfJoining.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtDateOfJoining.Location = New System.Drawing.Point(569, 37)
+        Me.TxtDateOfJoining.Location = New System.Drawing.Point(557, 37)
         Me.TxtDateOfJoining.Name = "TxtDateOfJoining"
-        Me.TxtDateOfJoining.Size = New System.Drawing.Size(96, 27)
+        Me.TxtDateOfJoining.Size = New System.Drawing.Size(118, 27)
         Me.TxtDateOfJoining.TabIndex = 74
         '
         'Label13
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(502, 39)
+        Me.Label13.Location = New System.Drawing.Point(483, 40)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(52, 21)
         Me.Label13.TabIndex = 73
@@ -86,7 +87,7 @@ Partial Class FrmNewUser
         Me.BtnClose.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnClose.Location = New System.Drawing.Point(360, 646)
         Me.BtnClose.Name = "BtnClose"
-        Me.BtnClose.Size = New System.Drawing.Size(93, 33)
+        Me.BtnClose.Size = New System.Drawing.Size(99, 33)
         Me.BtnClose.TabIndex = 72
         Me.BtnClose.Text = "Close"
         Me.BtnClose.UseVisualStyleBackColor = True
@@ -96,7 +97,7 @@ Partial Class FrmNewUser
         Me.BtnReset.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnReset.Location = New System.Drawing.Point(228, 646)
         Me.BtnReset.Name = "BtnReset"
-        Me.BtnReset.Size = New System.Drawing.Size(87, 33)
+        Me.BtnReset.Size = New System.Drawing.Size(100, 33)
         Me.BtnReset.TabIndex = 71
         Me.BtnReset.Text = "Reset"
         Me.BtnReset.UseVisualStyleBackColor = True
@@ -106,7 +107,7 @@ Partial Class FrmNewUser
         Me.BtnSubmit.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnSubmit.Location = New System.Drawing.Point(101, 646)
         Me.BtnSubmit.Name = "BtnSubmit"
-        Me.BtnSubmit.Size = New System.Drawing.Size(83, 33)
+        Me.BtnSubmit.Size = New System.Drawing.Size(94, 33)
         Me.BtnSubmit.TabIndex = 70
         Me.BtnSubmit.Text = "Submit"
         Me.BtnSubmit.UseVisualStyleBackColor = True
@@ -116,7 +117,7 @@ Partial Class FrmNewUser
         Me.TxtPINCode.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtPINCode.Location = New System.Drawing.Point(207, 572)
         Me.TxtPINCode.Name = "TxtPINCode"
-        Me.TxtPINCode.Size = New System.Drawing.Size(108, 27)
+        Me.TxtPINCode.Size = New System.Drawing.Size(121, 27)
         Me.TxtPINCode.TabIndex = 69
         '
         'Label12
@@ -178,9 +179,9 @@ Partial Class FrmNewUser
         'TxtLastName
         '
         Me.TxtLastName.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtLastName.Location = New System.Drawing.Point(204, 191)
+        Me.TxtLastName.Location = New System.Drawing.Point(203, 189)
         Me.TxtLastName.Name = "TxtLastName"
-        Me.TxtLastName.Size = New System.Drawing.Size(102, 27)
+        Me.TxtLastName.Size = New System.Drawing.Size(125, 27)
         Me.TxtLastName.TabIndex = 62
         '
         'Label8
@@ -198,7 +199,7 @@ Partial Class FrmNewUser
         Me.TxtMiddleName.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtMiddleName.Location = New System.Drawing.Point(203, 141)
         Me.TxtMiddleName.Name = "TxtMiddleName"
-        Me.TxtMiddleName.Size = New System.Drawing.Size(102, 27)
+        Me.TxtMiddleName.Size = New System.Drawing.Size(125, 27)
         Me.TxtMiddleName.TabIndex = 60
         '
         'Label2
@@ -234,7 +235,7 @@ Partial Class FrmNewUser
         Me.TxtContactNo.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtContactNo.Location = New System.Drawing.Point(206, 324)
         Me.TxtContactNo.Name = "TxtContactNo"
-        Me.TxtContactNo.Size = New System.Drawing.Size(109, 27)
+        Me.TxtContactNo.Size = New System.Drawing.Size(122, 27)
         Me.TxtContactNo.TabIndex = 56
         '
         'Label6
@@ -253,7 +254,7 @@ Partial Class FrmNewUser
         Me.DtpDateOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.DtpDateOfBirth.Location = New System.Drawing.Point(206, 283)
         Me.DtpDateOfBirth.Name = "DtpDateOfBirth"
-        Me.DtpDateOfBirth.Size = New System.Drawing.Size(109, 27)
+        Me.DtpDateOfBirth.Size = New System.Drawing.Size(122, 27)
         Me.DtpDateOfBirth.TabIndex = 54
         '
         'Label5
@@ -305,7 +306,7 @@ Partial Class FrmNewUser
         Me.TxtFirstName.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtFirstName.Location = New System.Drawing.Point(203, 94)
         Me.TxtFirstName.Name = "TxtFirstName"
-        Me.TxtFirstName.Size = New System.Drawing.Size(102, 27)
+        Me.TxtFirstName.Size = New System.Drawing.Size(125, 27)
         Me.TxtFirstName.TabIndex = 49
         '
         'Label3
@@ -323,7 +324,7 @@ Partial Class FrmNewUser
         Me.TxtUserId.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtUserId.Location = New System.Drawing.Point(203, 46)
         Me.TxtUserId.Name = "TxtUserId"
-        Me.TxtUserId.Size = New System.Drawing.Size(100, 27)
+        Me.TxtUserId.Size = New System.Drawing.Size(125, 27)
         Me.TxtUserId.TabIndex = 47
         '
         'Label1

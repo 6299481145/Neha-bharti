@@ -61,7 +61,7 @@ Partial Class FrmEditUser
         Me.Button2.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(451, 664)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(83, 36)
+        Me.Button2.Size = New System.Drawing.Size(92, 36)
         Me.Button2.TabIndex = 109
         Me.Button2.Text = "Delete"
         Me.Button2.UseVisualStyleBackColor = True
@@ -71,25 +71,26 @@ Partial Class FrmEditUser
         Me.Button1.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(385, 52)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(83, 36)
+        Me.Button1.Size = New System.Drawing.Size(94, 36)
         Me.Button1.TabIndex = 108
         Me.Button1.Text = "Search"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'CboState
         '
+        Me.CboState.Font = New System.Drawing.Font("Modern No. 20", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CboState.FormattingEnabled = True
-        Me.CboState.Location = New System.Drawing.Point(215, 531)
+        Me.CboState.Location = New System.Drawing.Point(215, 526)
         Me.CboState.Name = "CboState"
-        Me.CboState.Size = New System.Drawing.Size(121, 24)
+        Me.CboState.Size = New System.Drawing.Size(220, 30)
         Me.CboState.TabIndex = 107
         '
         'TxtDateOfJoining
         '
         Me.TxtDateOfJoining.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtDateOfJoining.Location = New System.Drawing.Point(638, 45)
+        Me.TxtDateOfJoining.Location = New System.Drawing.Point(628, 45)
         Me.TxtDateOfJoining.Name = "TxtDateOfJoining"
-        Me.TxtDateOfJoining.Size = New System.Drawing.Size(96, 27)
+        Me.TxtDateOfJoining.Size = New System.Drawing.Size(106, 27)
         Me.TxtDateOfJoining.TabIndex = 106
         '
         'Label13
@@ -107,7 +108,7 @@ Partial Class FrmEditUser
         Me.BtnClose.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnClose.Location = New System.Drawing.Point(329, 664)
         Me.BtnClose.Name = "BtnClose"
-        Me.BtnClose.Size = New System.Drawing.Size(93, 36)
+        Me.BtnClose.Size = New System.Drawing.Size(106, 36)
         Me.BtnClose.TabIndex = 104
         Me.BtnClose.Text = "Close"
         Me.BtnClose.UseVisualStyleBackColor = True
@@ -117,7 +118,7 @@ Partial Class FrmEditUser
         Me.BtnReset.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnReset.Location = New System.Drawing.Point(215, 664)
         Me.BtnReset.Name = "BtnReset"
-        Me.BtnReset.Size = New System.Drawing.Size(87, 36)
+        Me.BtnReset.Size = New System.Drawing.Size(96, 36)
         Me.BtnReset.TabIndex = 103
         Me.BtnReset.Text = "Reset"
         Me.BtnReset.UseVisualStyleBackColor = True
@@ -127,7 +128,7 @@ Partial Class FrmEditUser
         Me.BtnSubmit.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnSubmit.Location = New System.Drawing.Point(101, 664)
         Me.BtnSubmit.Name = "BtnSubmit"
-        Me.BtnSubmit.Size = New System.Drawing.Size(83, 36)
+        Me.BtnSubmit.Size = New System.Drawing.Size(93, 36)
         Me.BtnSubmit.TabIndex = 102
         Me.BtnSubmit.Text = "Submit"
         Me.BtnSubmit.UseVisualStyleBackColor = True
@@ -137,7 +138,7 @@ Partial Class FrmEditUser
         Me.TxtPINCode.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtPINCode.Location = New System.Drawing.Point(215, 578)
         Me.TxtPINCode.Name = "TxtPINCode"
-        Me.TxtPINCode.Size = New System.Drawing.Size(108, 27)
+        Me.TxtPINCode.Size = New System.Drawing.Size(120, 27)
         Me.TxtPINCode.TabIndex = 101
         '
         'Label12
@@ -201,7 +202,7 @@ Partial Class FrmEditUser
         Me.TxtLastName.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtLastName.Location = New System.Drawing.Point(212, 197)
         Me.TxtLastName.Name = "TxtLastName"
-        Me.TxtLastName.Size = New System.Drawing.Size(102, 27)
+        Me.TxtLastName.Size = New System.Drawing.Size(123, 27)
         Me.TxtLastName.TabIndex = 94
         '
         'Label8
@@ -219,7 +220,7 @@ Partial Class FrmEditUser
         Me.TxtMiddleName.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtMiddleName.Location = New System.Drawing.Point(211, 147)
         Me.TxtMiddleName.Name = "TxtMiddleName"
-        Me.TxtMiddleName.Size = New System.Drawing.Size(102, 27)
+        Me.TxtMiddleName.Size = New System.Drawing.Size(124, 27)
         Me.TxtMiddleName.TabIndex = 92
         '
         'Label2
@@ -253,9 +254,9 @@ Partial Class FrmEditUser
         'TxtContactNo
         '
         Me.TxtContactNo.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtContactNo.Location = New System.Drawing.Point(214, 330)
+        Me.TxtContactNo.Location = New System.Drawing.Point(213, 332)
         Me.TxtContactNo.Name = "TxtContactNo"
-        Me.TxtContactNo.Size = New System.Drawing.Size(109, 27)
+        Me.TxtContactNo.Size = New System.Drawing.Size(122, 27)
         Me.TxtContactNo.TabIndex = 88
         '
         'Label6
@@ -274,7 +275,7 @@ Partial Class FrmEditUser
         Me.DtpDateOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.DtpDateOfBirth.Location = New System.Drawing.Point(214, 289)
         Me.DtpDateOfBirth.Name = "DtpDateOfBirth"
-        Me.DtpDateOfBirth.Size = New System.Drawing.Size(109, 27)
+        Me.DtpDateOfBirth.Size = New System.Drawing.Size(121, 27)
         Me.DtpDateOfBirth.TabIndex = 86
         '
         'Label5
@@ -326,7 +327,7 @@ Partial Class FrmEditUser
         Me.TxtFirstName.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtFirstName.Location = New System.Drawing.Point(211, 100)
         Me.TxtFirstName.Name = "TxtFirstName"
-        Me.TxtFirstName.Size = New System.Drawing.Size(102, 27)
+        Me.TxtFirstName.Size = New System.Drawing.Size(124, 27)
         Me.TxtFirstName.TabIndex = 81
         '
         'Label3
@@ -344,7 +345,7 @@ Partial Class FrmEditUser
         Me.TxtUserId.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtUserId.Location = New System.Drawing.Point(211, 52)
         Me.TxtUserId.Name = "TxtUserId"
-        Me.TxtUserId.Size = New System.Drawing.Size(100, 27)
+        Me.TxtUserId.Size = New System.Drawing.Size(124, 27)
         Me.TxtUserId.TabIndex = 79
         '
         'Label1
