@@ -23,7 +23,7 @@ Partial Class FrmNewUser
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.CboState = New System.Windows.Forms.ComboBox()
-        Me.TxtDateOfJoining = New System.Windows.Forms.TextBox()
+        Me.TxtDateOfAppointment = New System.Windows.Forms.TextBox()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.BtnClose = New System.Windows.Forms.Button()
         Me.BtnReset = New System.Windows.Forms.Button()
@@ -64,13 +64,13 @@ Partial Class FrmNewUser
         Me.CboState.Size = New System.Drawing.Size(221, 30)
         Me.CboState.TabIndex = 75
         '
-        'TxtDateOfJoining
+        'TxtDateOfAppointment
         '
-        Me.TxtDateOfJoining.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtDateOfJoining.Location = New System.Drawing.Point(557, 37)
-        Me.TxtDateOfJoining.Name = "TxtDateOfJoining"
-        Me.TxtDateOfJoining.Size = New System.Drawing.Size(118, 27)
-        Me.TxtDateOfJoining.TabIndex = 74
+        Me.TxtDateOfAppointment.Font = New System.Drawing.Font("Modern No. 20", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtDateOfAppointment.Location = New System.Drawing.Point(557, 37)
+        Me.TxtDateOfAppointment.Name = "TxtDateOfAppointment"
+        Me.TxtDateOfAppointment.Size = New System.Drawing.Size(118, 27)
+        Me.TxtDateOfAppointment.TabIndex = 74
         '
         'Label13
         '
@@ -343,7 +343,7 @@ Partial Class FrmNewUser
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(724, 710)
         Me.Controls.Add(Me.CboState)
-        Me.Controls.Add(Me.TxtDateOfJoining)
+        Me.Controls.Add(Me.TxtDateOfAppointment)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.BtnClose)
         Me.Controls.Add(Me.BtnReset)
@@ -380,7 +380,7 @@ Partial Class FrmNewUser
     End Sub
 
     Friend WithEvents CboState As ComboBox
-    Friend WithEvents TxtDateOfJoining As TextBox
+    Friend WithEvents TxtDateOfAppointment As TextBox
     Friend WithEvents Label13 As Label
     Friend WithEvents BtnClose As Button
     Friend WithEvents BtnReset As Button
