@@ -5,7 +5,7 @@ Public Class FrmNewUser
     Dim dr As New SQLiteDataReader()
     con.open()
     cmd.connection = con
-    cmd.commandText = "Insert Into User values('U001''Neha Bharti') "
+    cmd.commandText = "Insert Into User values('U001''Neha ' '','Bharti','F','2001-10-12','6299481145') "
     cmd.ExecuteNonQuery()
     cmd.close()
 
