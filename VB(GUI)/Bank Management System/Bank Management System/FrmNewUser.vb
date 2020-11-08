@@ -1,52 +1,57 @@
 ﻿Imports System.Data.SQLite
 Public Class FrmNewUser
-    Dim con As New SQLiteConnection("Data source = c:\SQLite\mydb.db;Version=3;")
-    Dim cmd As New SQLiteCommand()
-    Dim dr As New SQLiteDataReader()
-    con.open()
-    cmd.connection = con
-    cmd.commandText = "Insert Into User values('U001''Neha ' '','Bharti','F','2001-10-12','6299481145') "
-    cmd.ExecuteNonQuery()
-    cmd.close()
 
-    Private Sub BtnReset_Click(sender As Object, e As EventArgs) Handles BtnReset.Click
-
-    End Sub
 
     Private Sub FrmNewUser_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.MdiParent = FrmMain
-        TxtDateOfAppointment.Text = Today.Date()
-    End Sub
-
-    Private Sub GenerateUserId()
+        Dim con As New SQLiteConnection("Data source = C:\SQLite\mydb.db;Version=3;")
+        Dim cmd As New SQLiteCommand()
         con.Open()
         cmd.Connection = con
-        cmd.CommandText = "SELECT user_id FROM User"
-        dr = cmd.ExecuteReader()
-        While (dr.Read())
-            TxtUserId.Text = dr("User_id")
-        End While
-        dr.Close()
+        cmd.CommandText = "Insert Into User values('U003','Tanishka' ,'Bharti','Kumari','F','2002-5-14','9658435654') "
+        cmd.ExecuteNonQuery()
         con.Close()
+        MessageBox.Show("Data Inserted successfully!")
 
-        TxtUserId.Text = TxtUserId.Text.Substring(1)
+    End Sub   ' Dim dr As New SQLiteDataReader()
 
-        TxtUserId.Text += 1
+    '    Private Sub BtnReset_Click(sender As Object, e As EventArgs) Handles BtnReset.Click
 
-        If (TxtUserId.Text < 10) Then
-            TxtUserId.Text = "U00" & TxtUserId.Text
-        ElseIf (TxtUserId.Text < 100) Then
-            TxtUserId.Text = "U0" & TxtUserId.Text
-        ElseIf (TxtUserId.Text < 1000) Then
-            TxtUserId.Text = "U" & TxtUserId.Text
-        End If
-    End Sub
+    '    End Sub
 
-    Private Sub Resetform()
+    '    Private Sub FrmNewUser_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    '        Me.MdiParent = FrmMain
+    '        TxtDateOfAppointment.Text = Today.Date()
+    '    End Sub
 
-    End Sub
+    '    Private Sub GenerateUserId()
+    '        con.Open()
+    '        cmd.Connection = con
+    '        cmd.CommandText = "SELECT user_id FROM User"
+    '        dr = cmd.ExecuteReader()
+    '        While (dr.Read())
+    '            TxtUserId.Text = dr("User_id")
+    '        End While
+    '        dr.Close()
+    '        con.Close()
 
-    Private Sub TxtUserId_TextChanged(sender As Object, e As EventArgs) Handles TxtUserId.TextChanged
+    '        TxtUserId.Text = TxtUserId.Text.Substring(1)
 
-    End Sub
+    '        TxtUserId.Text += 1
+
+    '        If (TxtUserId.Text < 10) Then
+    '            TxtUserId.Text = "U00" & TxtUserId.Text
+    '        ElseIf (TxtUserId.Text < 100) Then
+    '            TxtUserId.Text = "U0" & TxtUserId.Text
+    '        ElseIf (TxtUserId.Text < 1000) Then
+    '            TxtUserId.Text = "U" & TxtUserId.Text
+    '        End If
+    '    End Sub
+
+    '    Private Sub Resetform()
+
+    '    End Sub
+
+    '    Private Sub TxtUserId_TextChanged(sender As Object, e As EventArgs) Handles TxtUserId.TextChanged
+
+    '    End Sub
 End Class

@@ -26,3 +26,12 @@ D:\Neha Bharti\VB(GUI)\Bank Management System\Bank Management System\obj\Debug\B
 D:\Neha Bharti\VB(GUI)\Bank Management System\Bank Management System\obj\Debug\Bank Management System.exe
 D:\Neha Bharti\VB(GUI)\Bank Management System\Bank Management System\obj\Debug\Bank Management System.xml
 D:\Neha Bharti\VB(GUI)\Bank Management System\Bank Management System\obj\Debug\Bank Management System.pdb
+D:\Neha Bharti\VB(GUI)\Bank Management System\Bank Management System\bin\Debug\EntityFramework.dll
+D:\Neha Bharti\VB(GUI)\Bank Management System\Bank Management System\bin\Debug\EntityFramework.SqlServer.dll
+D:\Neha Bharti\VB(GUI)\Bank Management System\Bank Management System\bin\Debug\System.Data.SQLite.dll
+D:\Neha Bharti\VB(GUI)\Bank Management System\Bank Management System\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Neha Bharti\VB(GUI)\Bank Management System\Bank Management System\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Neha Bharti\VB(GUI)\Bank Management System\Bank Management System\bin\Debug\EntityFramework.xml
+D:\Neha Bharti\VB(GUI)\Bank Management System\Bank Management System\bin\Debug\EntityFramework.SqlServer.xml
+D:\Neha Bharti\VB(GUI)\Bank Management System\Bank Management System\bin\Debug\System.Data.SQLite.xml
+D:\Neha Bharti\VB(GUI)\Bank Management System\Bank Management System\obj\Debug\Bank Management System.vbproj.CopyComplete
