@@ -51,4 +51,8 @@ Public Class FrmEditDoctor
 
         MessageBox.Show("Data deleted successfully....")
     End Sub
+
+    Private Sub TxtDoctorId_TextChanged(sender As Object, e As EventArgs) Handles TxtDoctorId.TextChanged
+
+    End Sub
 End Class

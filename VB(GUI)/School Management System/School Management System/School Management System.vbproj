@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{801B98FF-1560-4322-8BAF-22794E0E52D2}</ProjectGuid>
+    <ProjectGuid>{1AF7243A-8D85-46E9-8F55-B46DC5A175EC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>ClinicManagementSystem.My.MyApplication</StartupObject>
-    <RootNamespace>ClinicManagementSystem</RootNamespace>
-    <AssemblyName>ClinicManagementSystem</AssemblyName>
+    <StartupObject>School_Management_System.My.MyApplication</StartupObject>
+    <RootNamespace>School_Management_System</RootNamespace>
+    <AssemblyName>School Management System</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>ClinicManagementSystem.xml</DocumentationFile>
+    <DocumentationFile>School Management System.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>ClinicManagementSystem.xml</DocumentationFile>
+    <DocumentationFile>School Management System.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -48,6 +48,10 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.20.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -73,53 +77,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmDoctorList.Designer.vb">
-      <DependentUpon>FrmDoctorList.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FrmDoctorList.vb">
+    <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmEditAppointment.Designer.vb">
-      <DependentUpon>FrmEditAppointment.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FrmEditAppointment.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmEditDoctor.Designer.vb">
-      <DependentUpon>FrmEditDoctor.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FrmEditDoctor.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmEditPatient.Designer.vb">
-      <DependentUpon>FrmEditPatient.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FrmEditPatient.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmMDI.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmMDI.Designer.vb">
-      <DependentUpon>FrmMDI.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmNewAppointment.Designer.vb">
-      <DependentUpon>FrmNewAppointment.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FrmNewAppointment.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmNewDoctor.Designer.vb">
-      <DependentUpon>FrmNewDoctor.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FrmNewDoctor.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmNewPatient.Designer.vb">
-      <DependentUpon>FrmNewPatient.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FrmNewPatient.vb">
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -139,29 +101,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="FrmDoctorList.resx">
-      <DependentUpon>FrmDoctorList.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmEditAppointment.resx">
-      <DependentUpon>FrmEditAppointment.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmEditDoctor.resx">
-      <DependentUpon>FrmEditDoctor.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmEditPatient.resx">
-      <DependentUpon>FrmEditPatient.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmMDI.resx">
-      <DependentUpon>FrmMDI.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmNewAppointment.resx">
-      <DependentUpon>FrmNewAppointment.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmNewDoctor.resx">
-      <DependentUpon>FrmNewDoctor.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmNewPatient.resx">
-      <DependentUpon>FrmNewPatient.vb</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

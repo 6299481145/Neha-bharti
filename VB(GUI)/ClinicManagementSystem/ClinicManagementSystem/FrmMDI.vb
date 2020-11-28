@@ -28,4 +28,8 @@
     Private Sub EditPatientToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles EditPatientToolStripMenuItem1.Click
         FrmEditPatient.Show()
     End Sub
+
+    Private Sub DoctorListToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DoctorListToolStripMenuItem.Click
+        FrmDoctorList.Show()
+    End Sub
 End Class

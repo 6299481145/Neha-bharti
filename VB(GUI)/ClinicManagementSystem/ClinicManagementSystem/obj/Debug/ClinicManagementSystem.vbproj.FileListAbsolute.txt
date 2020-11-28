@@ -16,3 +16,4 @@ D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\C
 D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.FrmEditPatient.resources
 D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.FrmNewAppointment.resources
 D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.FrmNewPatient.resources
+D:\Neha Bharti\VB(GUI)\ClinicManagementSystem\ClinicManagementSystem\obj\Debug\ClinicManagementSystem.FrmDoctorList.resources
