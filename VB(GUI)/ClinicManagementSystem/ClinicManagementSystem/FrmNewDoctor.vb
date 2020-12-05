@@ -62,7 +62,7 @@ Public Class FrmNewDoctor
 
         con.Open()
         cmd.Connection = con
-        cmd.CommandText = "INSERT INTO Doctor VALUES('" & TxtDoctorId.Text & "','" & TxtName.Text & "','" & g & "','1991-10-12')"
+        cmd.CommandText = "INSERT INTO Doctor VALUES('" & TxtDoctorId.Text & "','" & TxtName.Text & "','" & g & "','" & DtpDateOfBirth.Value.Date & "')"
         cmd.ExecuteNonQuery()
         con.Close()
         MessageBox.Show("Data inserted successfully!")
@@ -89,6 +89,10 @@ Public Class FrmNewDoctor
     End Sub
 
     Private Sub TxtDateOfJoining_TextChanged(sender As Object, e As EventArgs) Handles TxtDateOfJoining.TextChanged
+
+    End Sub
+
+    Private Sub DtpDateOfBirth_ValueChanged(sender As Object, e As EventArgs) Handles DtpDateOfBirth.ValueChanged
 
     End Sub
 End Class

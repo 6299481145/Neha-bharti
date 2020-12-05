@@ -1,6 +1,14 @@
 ﻿Imports System.Data.SqlClient
 Public Class FrmDoctorList
     Private Sub DGVDoctorList_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DGVDoctorList.CellContentClick
+
+
+    End Sub
+
+    Private Sub FrmDoctorList_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.MdiParent = FrmMDI
+
+
         Dim con As New SqlConnection("Server=(localdb)\mssqllocaldb;Database=Clinic")
         Dim cmd As New SqlCommand()
         Dim da As New SqlDataAdapter()
@@ -15,10 +23,5 @@ Public Class FrmDoctorList
         da.Fill(ds, "Doctor")
         DGVDoctorList.DataSource = ds.Tables("Doctor")
         con.Close()
-
-    End Sub
-
-    Private Sub FrmDoctorList_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.MdiParent = FrmMDI
     End Sub
 End Class
