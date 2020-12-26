@@ -17,7 +17,6 @@ D:\Neha Bharti\VB(GUI)\School Management System\School Management System\bin\Deb
 D:\Neha Bharti\VB(GUI)\School Management System\School Management System\bin\Debug\MySql.Data.xml
 D:\Neha Bharti\VB(GUI)\School Management System\School Management System\obj\Debug\School Management System.vbprojAssemblyReference.cache
 D:\Neha Bharti\VB(GUI)\School Management System\School Management System\obj\Debug\School Management System.exe.config
-D:\Neha Bharti\VB(GUI)\School Management System\School Management System\obj\Debug\School_Management_System.Form1.resources
 D:\Neha Bharti\VB(GUI)\School Management System\School Management System\obj\Debug\School_Management_System.Resources.resources
 D:\Neha Bharti\VB(GUI)\School Management System\School Management System\obj\Debug\School Management System.vbproj.GenerateResource.cache
 D:\Neha Bharti\VB(GUI)\School Management System\School Management System\obj\Debug\School Management System.vbproj.CoreCompileInputs.cache
@@ -25,3 +24,4 @@ D:\Neha Bharti\VB(GUI)\School Management System\School Management System\obj\Deb
 D:\Neha Bharti\VB(GUI)\School Management System\School Management System\obj\Debug\School Management System.exe
 D:\Neha Bharti\VB(GUI)\School Management System\School Management System\obj\Debug\School Management System.xml
 D:\Neha Bharti\VB(GUI)\School Management System\School Management System\obj\Debug\School Management System.pdb
+D:\Neha Bharti\VB(GUI)\School Management System\School Management System\obj\Debug\School_Management_System.FrmMain.resources
