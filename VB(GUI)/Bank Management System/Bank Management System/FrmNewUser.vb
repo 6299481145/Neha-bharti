@@ -7,7 +7,7 @@ Public Class FrmNewUser
         Dim cmd As New SQLiteCommand()
         con.Open()
         cmd.Connection = con
-        cmd.CommandText = "Insert Into User values('U003','Tanishka' ,'Bharti','Kumari','F','2002-5-14','9658435654') "
+        cmd.CommandText = "Insert Into User values('U001','Tanishka' ,'Bharti','Kumari','F','2002-5-14','9658435654') "
         cmd.ExecuteNonQuery()
         con.Close()
         MessageBox.Show("Data Inserted successfully!")

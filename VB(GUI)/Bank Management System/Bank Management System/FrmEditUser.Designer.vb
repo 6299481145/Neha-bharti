@@ -396,7 +396,7 @@ Partial Class FrmEditUser
         Me.Controls.Add(Me.TxtUserId)
         Me.Controls.Add(Me.Label1)
         Me.Name = "FrmEditUser"
-        Me.Text = "EditUser"
+        Me.Text = "Edit User"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

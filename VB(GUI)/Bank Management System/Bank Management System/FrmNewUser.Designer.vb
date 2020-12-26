@@ -373,7 +373,7 @@ Partial Class FrmNewUser
         Me.Controls.Add(Me.TxtUserId)
         Me.Controls.Add(Me.Label1)
         Me.Name = "FrmNewUser"
-        Me.Text = "NewUser"
+        Me.Text = "New User"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
