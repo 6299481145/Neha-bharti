@@ -1,15 +1,30 @@
 ﻿Imports Mysql.Data.Mysqlclient
 Public Class FrmNewBus
-    'Dim mysqlcon As New MysqlConnection("server=localhost; Database=BSMS; uid=Neha; pwd=Neha")
-    'Dim mysqlcmd As New Mysqlcommand()
-    'Dim mysqlDa As New MysqlDataAdapter()
+    Dim mysqlcon As New MySqlConnection("server=localhost; Database=BSMS; uid=Neha; pwd=Neha")
+    Dim mysqlcmd As New MySqlCommand()
+    Dim mysqlDa As New MySqlDataAdapter()
     Dim ds As New DataSet()
     Dim dr As DataRow
+    Dim mysqlDr As MySqlDataReader
+    Dim mysqlcb As New MySqlCommandBuilder(mysqlDa)
+
 
     Private Sub FrmNewBus_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.MdiParent = FrmMain         'Setting this form a chid of frmMain
 
         TxtDateAdded.Text = Today.Date 'Setting current date to TxtDateAdded
+
+
+        '-----------------------Populating CboMake ------------------------
+        mysqlcon.Open()
+        mysqlcmd.Connection = mysqlcon
+        mysqlcmd.command.Text = "SELECT Make from Make"
+        mysqlDr = mysqlcmd.ExecuteReader()
+        While (mysqlDr.Read())
+            CboMake.Items.Add(dr("Make"))
+        End While
+        mysqlDr.close()
+        mysqlcon.Close()
 
     End Sub
 
@@ -28,5 +43,18 @@ Public Class FrmNewBus
         mysqlcon.close
 
         MessageBox.Show("Bus record create Successfully")
+    End Sub
+
+    Private Sub CboMake_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CboMake.SelectedIndexChanged
+        '-----------------------Populating CboModel ------------------------
+        mysqlcon.Open()
+        mysqlcmd.Connection = mysqlcon
+        mysqlcmd.command.Text = "SELECT Model from Model"
+        mysqlDr = mysqlcmd.ExecuteReader()
+        While (mysqlDr.Read())
+            CboModel.Items.Add(dr("Model"))
+        End While
+        mysqlDr.Close()
+        mysqlcon.Close()
     End Sub
 End Class

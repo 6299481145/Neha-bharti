@@ -57,8 +57,10 @@ Partial Class FrmNewBus
         Me.TxtDateAdded.Font = New System.Drawing.Font("Modern No. 20", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtDateAdded.Location = New System.Drawing.Point(788, 56)
         Me.TxtDateAdded.Name = "TxtDateAdded"
+        Me.TxtDateAdded.ReadOnly = True
         Me.TxtDateAdded.Size = New System.Drawing.Size(121, 29)
         Me.TxtDateAdded.TabIndex = 3
+        Me.TxtDateAdded.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'LblDateAdded
         '
