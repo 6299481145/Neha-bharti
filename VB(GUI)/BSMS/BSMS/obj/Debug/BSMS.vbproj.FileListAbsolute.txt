@@ -1,0 +1,13 @@
+D:\Neha Bharti\VB(GUI)\BSMS\BSMS\bin\Debug\BSMS.exe.config
+D:\Neha Bharti\VB(GUI)\BSMS\BSMS\bin\Debug\BSMS.exe
+D:\Neha Bharti\VB(GUI)\BSMS\BSMS\bin\Debug\BSMS.pdb
+D:\Neha Bharti\VB(GUI)\BSMS\BSMS\bin\Debug\BSMS.xml
+D:\Neha Bharti\VB(GUI)\BSMS\BSMS\obj\Debug\BSMS.vbprojAssemblyReference.cache
+D:\Neha Bharti\VB(GUI)\BSMS\BSMS\obj\Debug\BSMS.FrmMain.resources
+D:\Neha Bharti\VB(GUI)\BSMS\BSMS\obj\Debug\BSMS.FrmNewBus.resources
+D:\Neha Bharti\VB(GUI)\BSMS\BSMS\obj\Debug\BSMS.Resources.resources
+D:\Neha Bharti\VB(GUI)\BSMS\BSMS\obj\Debug\BSMS.vbproj.GenerateResource.cache
+D:\Neha Bharti\VB(GUI)\BSMS\BSMS\obj\Debug\BSMS.vbproj.CoreCompileInputs.cache
+D:\Neha Bharti\VB(GUI)\BSMS\BSMS\obj\Debug\BSMS.exe
+D:\Neha Bharti\VB(GUI)\BSMS\BSMS\obj\Debug\BSMS.xml
+D:\Neha Bharti\VB(GUI)\BSMS\BSMS\obj\Debug\BSMS.pdb
