@@ -18,10 +18,10 @@ Public Class FrmNewBus
         '-----------------------Populating CboMake ------------------------
         mysqlcon.Open()
         mysqlcmd.Connection = mysqlcon
-        mysqlcmd.command.Text = "SELECT Make from Make"
+        mysqlcmd.CommandText = "SELECT Make from Make"
         mysqlDr = mysqlcmd.ExecuteReader()
         While (mysqlDr.Read())
-            CboMake.Items.Add(dr("Make"))
+            CboMake.Items.Add(mysqlDr("Make"))
         End While
         mysqlDr.close()
         mysqlcon.Close()
@@ -29,7 +29,8 @@ Public Class FrmNewBus
     End Sub
 
     Private Sub BtnSubmit_Click(sender As Object, e As EventArgs) Handles BtnSubmit.Click
-        mysqlcon.open
+
+        mysqlcon.Open()
         mysqlcmd.connection = mysqlcon
         mysqlcmd.commandText = "Select *from Bus"
         mysqlDa.selectCommand = mysqlcmd
@@ -47,12 +48,13 @@ Public Class FrmNewBus
 
     Private Sub CboMake_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CboMake.SelectedIndexChanged
         '-----------------------Populating CboModel ------------------------
+        CboModel.Items.Clear()
         mysqlcon.Open()
         mysqlcmd.Connection = mysqlcon
-        mysqlcmd.command.Text = "SELECT Model from Model"
+        mysqlcmd.CommandText = "SELECT Model from Model where Make ='" & CboMake.Text & "'"
         mysqlDr = mysqlcmd.ExecuteReader()
         While (mysqlDr.Read())
-            CboModel.Items.Add(dr("Model"))
+            CboModel.Items.Add(mysqlDr("Model"))
         End While
         mysqlDr.Close()
         mysqlcon.Close()
