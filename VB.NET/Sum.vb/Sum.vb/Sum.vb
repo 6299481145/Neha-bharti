@@ -1,9 +1,9 @@
 'Program to add two integers
-Imports System
 
 
-Module Sum
-    Sub Main(args As String())
+
+Module sum
+    Sub Main()
         Dim a, b, c As Integer
         Console.Write("Please enter a number:")
         a = Console.ReadLine()
@@ -15,6 +15,6 @@ Module Sum
 
         Console.WriteLine("The sum is {0}.", c)
         Console.WriteLine("Program over .... press enter to exit....")
-        Console.ReadKey()
+        'Console.ReadKey()
     End Sub
 End Module

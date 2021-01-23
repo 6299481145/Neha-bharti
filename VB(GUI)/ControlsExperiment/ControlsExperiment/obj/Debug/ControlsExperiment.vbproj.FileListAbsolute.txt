@@ -1,0 +1,12 @@
+D:\Neha Bharti\VB(GUI)\ControlsExperiment\ControlsExperiment\bin\Debug\ControlsExperiment.exe.config
+D:\Neha Bharti\VB(GUI)\ControlsExperiment\ControlsExperiment\bin\Debug\ControlsExperiment.exe
+D:\Neha Bharti\VB(GUI)\ControlsExperiment\ControlsExperiment\bin\Debug\ControlsExperiment.pdb
+D:\Neha Bharti\VB(GUI)\ControlsExperiment\ControlsExperiment\bin\Debug\ControlsExperiment.xml
+D:\Neha Bharti\VB(GUI)\ControlsExperiment\ControlsExperiment\obj\Debug\ControlsExperiment.vbprojAssemblyReference.cache
+D:\Neha Bharti\VB(GUI)\ControlsExperiment\ControlsExperiment\obj\Debug\ControlsExperiment.Form1.resources
+D:\Neha Bharti\VB(GUI)\ControlsExperiment\ControlsExperiment\obj\Debug\ControlsExperiment.Resources.resources
+D:\Neha Bharti\VB(GUI)\ControlsExperiment\ControlsExperiment\obj\Debug\ControlsExperiment.vbproj.GenerateResource.cache
+D:\Neha Bharti\VB(GUI)\ControlsExperiment\ControlsExperiment\obj\Debug\ControlsExperiment.vbproj.CoreCompileInputs.cache
+D:\Neha Bharti\VB(GUI)\ControlsExperiment\ControlsExperiment\obj\Debug\ControlsExperiment.exe
+D:\Neha Bharti\VB(GUI)\ControlsExperiment\ControlsExperiment\obj\Debug\ControlsExperiment.xml
+D:\Neha Bharti\VB(GUI)\ControlsExperiment\ControlsExperiment\obj\Debug\ControlsExperiment.pdb
