@@ -1,0 +1,12 @@
+D:\Neha Bharti\VB(GUI)\EMICalculator\EMICalculator\bin\Debug\EMICalculator.exe.config
+D:\Neha Bharti\VB(GUI)\EMICalculator\EMICalculator\bin\Debug\EMICalculator.exe
+D:\Neha Bharti\VB(GUI)\EMICalculator\EMICalculator\bin\Debug\EMICalculator.pdb
+D:\Neha Bharti\VB(GUI)\EMICalculator\EMICalculator\bin\Debug\EMICalculator.xml
+D:\Neha Bharti\VB(GUI)\EMICalculator\EMICalculator\obj\Debug\EMICalculator.vbprojAssemblyReference.cache
+D:\Neha Bharti\VB(GUI)\EMICalculator\EMICalculator\obj\Debug\EMICalculator.FrmEMICalculator.resources
+D:\Neha Bharti\VB(GUI)\EMICalculator\EMICalculator\obj\Debug\EMICalculator.Resources.resources
+D:\Neha Bharti\VB(GUI)\EMICalculator\EMICalculator\obj\Debug\EMICalculator.vbproj.GenerateResource.cache
+D:\Neha Bharti\VB(GUI)\EMICalculator\EMICalculator\obj\Debug\EMICalculator.vbproj.CoreCompileInputs.cache
+D:\Neha Bharti\VB(GUI)\EMICalculator\EMICalculator\obj\Debug\EMICalculator.exe
+D:\Neha Bharti\VB(GUI)\EMICalculator\EMICalculator\obj\Debug\EMICalculator.xml
+D:\Neha Bharti\VB(GUI)\EMICalculator\EMICalculator\obj\Debug\EMICalculator.pdb
