@@ -1,0 +1,12 @@
+D:\Neha Bharti\VB(GUI)\TestApp\TestApp\bin\Debug\TestApp.exe.config
+D:\Neha Bharti\VB(GUI)\TestApp\TestApp\bin\Debug\TestApp.exe
+D:\Neha Bharti\VB(GUI)\TestApp\TestApp\bin\Debug\TestApp.pdb
+D:\Neha Bharti\VB(GUI)\TestApp\TestApp\bin\Debug\TestApp.xml
+D:\Neha Bharti\VB(GUI)\TestApp\TestApp\obj\Debug\TestApp.vbprojAssemblyReference.cache
+D:\Neha Bharti\VB(GUI)\TestApp\TestApp\obj\Debug\TestApp.FrmTest.resources
+D:\Neha Bharti\VB(GUI)\TestApp\TestApp\obj\Debug\TestApp.Resources.resources
+D:\Neha Bharti\VB(GUI)\TestApp\TestApp\obj\Debug\TestApp.vbproj.GenerateResource.cache
+D:\Neha Bharti\VB(GUI)\TestApp\TestApp\obj\Debug\TestApp.vbproj.CoreCompileInputs.cache
+D:\Neha Bharti\VB(GUI)\TestApp\TestApp\obj\Debug\TestApp.exe
+D:\Neha Bharti\VB(GUI)\TestApp\TestApp\obj\Debug\TestApp.xml
+D:\Neha Bharti\VB(GUI)\TestApp\TestApp\obj\Debug\TestApp.pdb

@@ -1,3 +1,5 @@
+//Program for From feed(/f)
+
 #include <stdio.h>
 int main ()
 {

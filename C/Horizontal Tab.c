@@ -1,3 +1,5 @@
+//Program for Horizontal tab(/t)
+
 #include <stdio.h>
 int main ()
 {

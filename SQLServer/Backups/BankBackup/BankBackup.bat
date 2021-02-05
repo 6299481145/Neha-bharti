@@ -1,1 +1,1 @@
-sqlcmd -S (localdb)\mssqllocaldb -q "Backup database Bank To Disk ='D:\Neha Bharti\SQLServer\Backups\BankBackup\20210111_0106.bak'"
+sqlcmd -S (localdb)\mssqllocaldb -Q "Backup database Bank To Disk ='D:\Neha Bharti\SQLServer\Backups\BankBackup\20210111_0106.bak'"
