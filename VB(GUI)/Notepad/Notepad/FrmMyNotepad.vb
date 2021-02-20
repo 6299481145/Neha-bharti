@@ -81,10 +81,19 @@ Public Class FrmMyNotepad
         Dim fonts As String() = myfont.Split(searchchar, 5)
 
         TxtEditingArea.Font = New Font(fonts(1), fonts(3))
+
+        ' ...............For Maximize.................
+        TxtEditingArea.Width = Me.Width
+        TxtEditingArea.Height = Me.Height
     End Sub
 
     Private Sub TxtEditingArea_TextChanged(sender As Object, e As EventArgs) Handles TxtEditingArea.TextChanged
         Me.Text = "*" & Me.Text
+        ' If (TxtEditingArea.Text And save()) Then
+
+        ' Else
+
+        'End If
     End Sub
 
     Private Sub UndoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UndoToolStripMenuItem.Click
@@ -117,6 +126,11 @@ Public Class FrmMyNotepad
 
     Private Sub ZoomInToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ZoomInToolStripMenuItem.Click
         ' TxtEditingArea.Text
+    End Sub
+
+    Private Sub FrmMyNotepad_Resize(sender As Object, e As EventArgs) Handles Me.Resize
+        TxtEditingArea.Width = Me.Width
+        TxtEditingArea.Height = Me.Height
     End Sub
 End Class
 

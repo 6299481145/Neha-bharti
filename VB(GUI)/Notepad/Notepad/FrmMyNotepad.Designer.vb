@@ -276,7 +276,7 @@ Partial Class FrmMyNotepad
         'WordWrapToolStripMenuItem
         '
         Me.WordWrapToolStripMenuItem.Name = "WordWrapToolStripMenuItem"
-        Me.WordWrapToolStripMenuItem.Size = New System.Drawing.Size(168, 26)
+        Me.WordWrapToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.WordWrapToolStripMenuItem.Text = "Word &Wrap"
         '
         'FontToolStripMenuItem
@@ -321,14 +321,14 @@ Partial Class FrmMyNotepad
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(155, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(221, 6)
         '
         'StatusBarToolStripMenuItem
         '
         Me.StatusBarToolStripMenuItem.Checked = True
         Me.StatusBarToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked
         Me.StatusBarToolStripMenuItem.Name = "StatusBarToolStripMenuItem"
-        Me.StatusBarToolStripMenuItem.Size = New System.Drawing.Size(158, 26)
+        Me.StatusBarToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.StatusBarToolStripMenuItem.Text = "Status Bar"
         '
         'HelpToolStripMenuItem
