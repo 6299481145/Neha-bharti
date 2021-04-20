@@ -21,11 +21,11 @@ struct student
 		cout<<"Roll No: "<<rollno<<endl;
 		cout<<"Name: "<<name<<endl;
 	}
-};
+}s;
 
 int main()
 {
-	struct student s;
+	student s;
 	s.input();
 	s.display();
 	return 0;

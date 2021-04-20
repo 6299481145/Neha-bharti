@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+  <title>My text editor</title>
+  <!-- Behold the three lines of wizardry -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+  <!-- here will be our block and then the script -->
+
+</body>
+</html>

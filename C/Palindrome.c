@@ -6,7 +6,7 @@ int main()
 {
 	char str[30],rev[30];
 	
-	printf("Please enter a string:");
+	printf("Please enter a string: ");
 	scanf("%s",str);
 	
 	strcpy(rev,str);
@@ -18,7 +18,7 @@ int main()
 	}
 	else
 	{
-		printfS("%s is not a palindrome",str);
+		printf("%s is not a palindrome",str);
 	}
 	return 0;
 }

@@ -33,7 +33,7 @@ Partial Class FrmEvenOddApp
         'LblNumber
         '
         Me.LblNumber.AutoSize = True
-        Me.LblNumber.Location = New System.Drawing.Point(90, 62)
+        Me.LblNumber.Location = New System.Drawing.Point(97, 91)
         Me.LblNumber.Name = "LblNumber"
         Me.LblNumber.Size = New System.Drawing.Size(58, 17)
         Me.LblNumber.TabIndex = 0
@@ -42,7 +42,7 @@ Partial Class FrmEvenOddApp
         'LblEvenOdd
         '
         Me.LblEvenOdd.AutoSize = True
-        Me.LblEvenOdd.Location = New System.Drawing.Point(90, 144)
+        Me.LblEvenOdd.Location = New System.Drawing.Point(97, 173)
         Me.LblEvenOdd.Name = "LblEvenOdd"
         Me.LblEvenOdd.Size = New System.Drawing.Size(67, 17)
         Me.LblEvenOdd.TabIndex = 1
@@ -50,7 +50,7 @@ Partial Class FrmEvenOddApp
         '
         'TxtNumber
         '
-        Me.TxtNumber.Location = New System.Drawing.Point(214, 61)
+        Me.TxtNumber.Location = New System.Drawing.Point(221, 90)
         Me.TxtNumber.Name = "TxtNumber"
         Me.TxtNumber.Size = New System.Drawing.Size(90, 22)
         Me.TxtNumber.TabIndex = 2
@@ -58,7 +58,7 @@ Partial Class FrmEvenOddApp
         'TxtEvenOdd
         '
         Me.TxtEvenOdd.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtEvenOdd.Location = New System.Drawing.Point(214, 139)
+        Me.TxtEvenOdd.Location = New System.Drawing.Point(221, 168)
         Me.TxtEvenOdd.Name = "TxtEvenOdd"
         Me.TxtEvenOdd.ReadOnly = True
         Me.TxtEvenOdd.Size = New System.Drawing.Size(92, 22)
@@ -67,7 +67,7 @@ Partial Class FrmEvenOddApp
         '
         'BtnCheck
         '
-        Me.BtnCheck.Location = New System.Drawing.Point(137, 217)
+        Me.BtnCheck.Location = New System.Drawing.Point(144, 246)
         Me.BtnCheck.Name = "BtnCheck"
         Me.BtnCheck.Size = New System.Drawing.Size(75, 23)
         Me.BtnCheck.TabIndex = 4
@@ -76,7 +76,7 @@ Partial Class FrmEvenOddApp
         '
         'BtnReset
         '
-        Me.BtnReset.Location = New System.Drawing.Point(218, 217)
+        Me.BtnReset.Location = New System.Drawing.Point(225, 246)
         Me.BtnReset.Name = "BtnReset"
         Me.BtnReset.Size = New System.Drawing.Size(75, 23)
         Me.BtnReset.TabIndex = 5
@@ -87,7 +87,7 @@ Partial Class FrmEvenOddApp
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(436, 338)
+        Me.ClientSize = New System.Drawing.Size(436, 364)
         Me.Controls.Add(Me.BtnReset)
         Me.Controls.Add(Me.BtnCheck)
         Me.Controls.Add(Me.TxtEvenOdd)

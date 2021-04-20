@@ -1,0 +1,14 @@
+D:\Neha Bharti\VB(GUI)\Hostel Management System\Hostel Management System\bin\Debug\Hostel Management System.exe.config
+D:\Neha Bharti\VB(GUI)\Hostel Management System\Hostel Management System\bin\Debug\Hostel Management System.exe
+D:\Neha Bharti\VB(GUI)\Hostel Management System\Hostel Management System\bin\Debug\Hostel Management System.pdb
+D:\Neha Bharti\VB(GUI)\Hostel Management System\Hostel Management System\bin\Debug\Hostel Management System.xml
+D:\Neha Bharti\VB(GUI)\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.vbprojAssemblyReference.cache
+D:\Neha Bharti\VB(GUI)\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.FrmMDI.resources
+D:\Neha Bharti\VB(GUI)\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Resources.resources
+D:\Neha Bharti\VB(GUI)\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.vbproj.GenerateResource.cache
+D:\Neha Bharti\VB(GUI)\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.vbproj.CoreCompileInputs.cache
+D:\Neha Bharti\VB(GUI)\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.exe
+D:\Neha Bharti\VB(GUI)\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.xml
+D:\Neha Bharti\VB(GUI)\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.pdb
+D:\Neha Bharti\VB(GUI)\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.FrmEditHostellers.resources
+D:\Neha Bharti\VB(GUI)\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.FrmNewHosteller.resources

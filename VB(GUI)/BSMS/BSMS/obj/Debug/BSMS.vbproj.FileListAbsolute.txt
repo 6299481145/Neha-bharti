@@ -11,7 +11,6 @@ D:\Neha Bharti\VB(GUI)\BSMS\BSMS\obj\Debug\BSMS.vbproj.CoreCompileInputs.cache
 D:\Neha Bharti\VB(GUI)\BSMS\BSMS\obj\Debug\BSMS.exe
 D:\Neha Bharti\VB(GUI)\BSMS\BSMS\obj\Debug\BSMS.xml
 D:\Neha Bharti\VB(GUI)\BSMS\BSMS\obj\Debug\BSMS.pdb
-D:\Neha Bharti\VB(GUI)\BSMS\BSMS\obj\Debug\BSMS.exe.config
 D:\Neha Bharti\VB(GUI)\BSMS\BSMS\bin\Debug\MySql.Data.dll
 D:\Neha Bharti\VB(GUI)\BSMS\BSMS\bin\Debug\Google.Protobuf.dll
 D:\Neha Bharti\VB(GUI)\BSMS\BSMS\bin\Debug\Zstandard.Net.dll
@@ -26,3 +25,4 @@ D:\Neha Bharti\VB(GUI)\BSMS\BSMS\bin\Debug\System.Memory.dll
 D:\Neha Bharti\VB(GUI)\BSMS\BSMS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 D:\Neha Bharti\VB(GUI)\BSMS\BSMS\bin\Debug\MySql.Data.xml
 D:\Neha Bharti\VB(GUI)\BSMS\BSMS\obj\Debug\BSMS.vbproj.CopyComplete
+D:\Neha Bharti\VB(GUI)\BSMS\BSMS\bin\Debug\System.Numerics.Vectors.dll

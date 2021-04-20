@@ -84,18 +84,18 @@ Partial Class FrmSubtractionApp
         '
         'BtnSubtract
         '
-        Me.BtnSubtract.Location = New System.Drawing.Point(134, 276)
+        Me.BtnSubtract.Location = New System.Drawing.Point(132, 276)
         Me.BtnSubtract.Name = "BtnSubtract"
-        Me.BtnSubtract.Size = New System.Drawing.Size(75, 23)
+        Me.BtnSubtract.Size = New System.Drawing.Size(75, 35)
         Me.BtnSubtract.TabIndex = 6
         Me.BtnSubtract.Text = "Subtract"
         Me.BtnSubtract.UseVisualStyleBackColor = True
         '
         'BtnReset
         '
-        Me.BtnReset.Location = New System.Drawing.Point(215, 276)
+        Me.BtnReset.Location = New System.Drawing.Point(223, 276)
         Me.BtnReset.Name = "BtnReset"
-        Me.BtnReset.Size = New System.Drawing.Size(75, 23)
+        Me.BtnReset.Size = New System.Drawing.Size(75, 35)
         Me.BtnReset.TabIndex = 7
         Me.BtnReset.Text = "Reset"
         Me.BtnReset.UseVisualStyleBackColor = True

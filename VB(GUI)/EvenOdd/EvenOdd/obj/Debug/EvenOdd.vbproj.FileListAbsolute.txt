@@ -10,3 +10,15 @@ D:\Neha-bharti\VBNET\EvenOdd\EvenOdd\obj\Debug\EvenOdd.vbproj.CoreCompileInputs.
 D:\Neha-bharti\VBNET\EvenOdd\EvenOdd\obj\Debug\EvenOdd.exe
 D:\Neha-bharti\VBNET\EvenOdd\EvenOdd\obj\Debug\EvenOdd.xml
 D:\Neha-bharti\VBNET\EvenOdd\EvenOdd\obj\Debug\EvenOdd.pdb
+D:\Neha Bharti\VB(GUI)\EvenOdd\EvenOdd\bin\Debug\EvenOdd.exe.config
+D:\Neha Bharti\VB(GUI)\EvenOdd\EvenOdd\bin\Debug\EvenOdd.exe
+D:\Neha Bharti\VB(GUI)\EvenOdd\EvenOdd\bin\Debug\EvenOdd.pdb
+D:\Neha Bharti\VB(GUI)\EvenOdd\EvenOdd\bin\Debug\EvenOdd.xml
+D:\Neha Bharti\VB(GUI)\EvenOdd\EvenOdd\obj\Debug\EvenOdd.vbprojAssemblyReference.cache
+D:\Neha Bharti\VB(GUI)\EvenOdd\EvenOdd\obj\Debug\EvenOdd.FrmEvenOddApp.resources
+D:\Neha Bharti\VB(GUI)\EvenOdd\EvenOdd\obj\Debug\EvenOdd.Resources.resources
+D:\Neha Bharti\VB(GUI)\EvenOdd\EvenOdd\obj\Debug\EvenOdd.vbproj.GenerateResource.cache
+D:\Neha Bharti\VB(GUI)\EvenOdd\EvenOdd\obj\Debug\EvenOdd.vbproj.CoreCompileInputs.cache
+D:\Neha Bharti\VB(GUI)\EvenOdd\EvenOdd\obj\Debug\EvenOdd.exe
+D:\Neha Bharti\VB(GUI)\EvenOdd\EvenOdd\obj\Debug\EvenOdd.xml
+D:\Neha Bharti\VB(GUI)\EvenOdd\EvenOdd\obj\Debug\EvenOdd.pdb

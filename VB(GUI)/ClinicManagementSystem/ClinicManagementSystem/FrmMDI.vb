@@ -32,4 +32,12 @@
     Private Sub DoctorListToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DoctorListToolStripMenuItem.Click
         FrmDoctorList.Show()
     End Sub
+
+    Private Sub DoctorToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DoctorToolStripMenuItem.Click
+
+    End Sub
+
+    Private Sub MenuStrip1_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles MenuStrip1.ItemClicked
+
+    End Sub
 End Class
