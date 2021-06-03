@@ -48,7 +48,7 @@ Partial Class FrmMain
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MasterToolStripMenuItem, Me.TransationToolStripMenuItem, Me.ReportsToolStripMenuItem, Me.HelpToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(995, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(995, 30)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -56,33 +56,33 @@ Partial Class FrmMain
         '
         Me.MasterToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UserToolStripMenuItem, Me.BranchToolStripMenuItem, Me.AccountTypeToolStripMenuItem, Me.CustomerToolStripMenuItem})
         Me.MasterToolStripMenuItem.Name = "MasterToolStripMenuItem"
-        Me.MasterToolStripMenuItem.Size = New System.Drawing.Size(68, 24)
+        Me.MasterToolStripMenuItem.Size = New System.Drawing.Size(68, 26)
         Me.MasterToolStripMenuItem.Text = "Master"
         '
         'UserToolStripMenuItem
         '
         Me.UserToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewUserToolStripMenuItem, Me.EditUserToolStripMenuItem})
         Me.UserToolStripMenuItem.Name = "UserToolStripMenuItem"
-        Me.UserToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.UserToolStripMenuItem.Size = New System.Drawing.Size(181, 26)
         Me.UserToolStripMenuItem.Text = "User"
         '
         'NewUserToolStripMenuItem
         '
         Me.NewUserToolStripMenuItem.Name = "NewUserToolStripMenuItem"
-        Me.NewUserToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.NewUserToolStripMenuItem.Size = New System.Drawing.Size(155, 26)
         Me.NewUserToolStripMenuItem.Text = "New User"
         '
         'EditUserToolStripMenuItem
         '
         Me.EditUserToolStripMenuItem.Name = "EditUserToolStripMenuItem"
-        Me.EditUserToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.EditUserToolStripMenuItem.Size = New System.Drawing.Size(155, 26)
         Me.EditUserToolStripMenuItem.Text = "Edit User"
         '
         'BranchToolStripMenuItem
         '
         Me.BranchToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewBranchToolStripMenuItem, Me.EditBranchToolStripMenuItem})
         Me.BranchToolStripMenuItem.Name = "BranchToolStripMenuItem"
-        Me.BranchToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.BranchToolStripMenuItem.Size = New System.Drawing.Size(181, 26)
         Me.BranchToolStripMenuItem.Text = "Branch"
         '
         'NewBranchToolStripMenuItem
@@ -101,7 +101,7 @@ Partial Class FrmMain
         '
         Me.AccountTypeToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewAccountToolStripMenuItem, Me.EditAccountToolStripMenuItem})
         Me.AccountTypeToolStripMenuItem.Name = "AccountTypeToolStripMenuItem"
-        Me.AccountTypeToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.AccountTypeToolStripMenuItem.Size = New System.Drawing.Size(181, 26)
         Me.AccountTypeToolStripMenuItem.Text = "Account Type"
         '
         'NewAccountToolStripMenuItem
@@ -120,7 +120,7 @@ Partial Class FrmMain
         '
         Me.CustomerToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewCustomerToolStripMenuItem, Me.EditCustomerToolStripMenuItem})
         Me.CustomerToolStripMenuItem.Name = "CustomerToolStripMenuItem"
-        Me.CustomerToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.CustomerToolStripMenuItem.Size = New System.Drawing.Size(181, 26)
         Me.CustomerToolStripMenuItem.Text = "Customer"
         '
         'NewCustomerToolStripMenuItem
@@ -138,26 +138,26 @@ Partial Class FrmMain
         'TransationToolStripMenuItem
         '
         Me.TransationToolStripMenuItem.Name = "TransationToolStripMenuItem"
-        Me.TransationToolStripMenuItem.Size = New System.Drawing.Size(91, 24)
+        Me.TransationToolStripMenuItem.Size = New System.Drawing.Size(91, 26)
         Me.TransationToolStripMenuItem.Text = "Transation"
         '
         'ReportsToolStripMenuItem
         '
         Me.ReportsToolStripMenuItem.Name = "ReportsToolStripMenuItem"
-        Me.ReportsToolStripMenuItem.Size = New System.Drawing.Size(74, 24)
+        Me.ReportsToolStripMenuItem.Size = New System.Drawing.Size(74, 26)
         Me.ReportsToolStripMenuItem.Text = "Reports"
         '
         'HelpToolStripMenuItem
         '
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(55, 24)
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(55, 26)
         Me.HelpToolStripMenuItem.Text = "Help"
         '
         'FrmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(995, 599)
+        Me.ClientSize = New System.Drawing.Size(995, 531)
         Me.Controls.Add(Me.MenuStrip1)
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1

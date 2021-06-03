@@ -132,5 +132,21 @@ Public Class FrmMyNotepad
         TxtEditingArea.Width = Me.Width
         TxtEditingArea.Height = Me.Height
     End Sub
+
+    Private Sub PrintToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles PrintToolStripMenuItem1.Click
+        PpdCommon.Document = PrdText
+        PpdCommon.ShowDialog()
+
+
+    End Sub
+
+    Private Sub PrdText_PrintPage(sender As Object, e As Printing.PrintPageEventArgs) Handles PrdText.PrintPage
+        e.Graphics.DrawString(TxtEditingArea.Text, TxtEditingArea.Font, Brushes.Black, New Point(10, 10))
+    End Sub
+
+    Private Sub PageSetupToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PageSetupToolStripMenuItem.Click
+        PageSetupDialog1.Document = PrdText
+        PageSetupDialog1.ShowDialog()
+    End Sub
 End Class
 

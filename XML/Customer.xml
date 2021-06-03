@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Customer>
+    <row>
+        <id>C001</id>
+        <name>Neha Bharti</name>
+        <location>Muzaffarpur</location>
+    </row>
+    <row>
+        <id>C002</id>
+        <name>Tanishaka Bharti</name>
+        <location>Muzaffarpur</location>
+    </row>
+    <row>
+        <id>C003</id>
+        <name>Simran Kumari</name>
+        <location>Muzaffarpur</location>
+    </row>
+    <row>
+        <id>C004</id>
+        <name>Prince Kumar</name>
+        <location>Muzaffarpur</location>
+    </row>
+    <row>
+        <id>C005</id>
+        <name>Payal Kumari</name>
+        <location>Muzaffarpur</location>
+     </row>
+</Customer>     

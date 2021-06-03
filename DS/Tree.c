@@ -30,7 +30,7 @@ node* create_node(int no)
 }
 void display(node*r)
 {
-	printf("%d\n",r->number);
-	printf("/  \\ \n");
-	printf("%d\t %d\n", r->left->number, r->right->number);
+	printf(" %d\n",r->number);
+	printf(" / \\\n");
+	printf("%d %d", r->left->number, r->right->number);
 }

@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-	string str={"Muzaffarpur"};
+	string str=("Muzaffarpur");
 	string str1;
 	
 	cout<<"Given string is: ";

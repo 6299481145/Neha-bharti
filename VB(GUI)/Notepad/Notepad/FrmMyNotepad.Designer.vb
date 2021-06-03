@@ -22,6 +22,7 @@ Partial Class FrmMyNotepad
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmMyNotepad))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -67,6 +68,10 @@ Partial Class FrmMyNotepad
         Me.ToolStripMenuItem5 = New System.Windows.Forms.ToolStripSeparator()
         Me.AboutNotepadToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TxtEditingArea = New System.Windows.Forms.TextBox()
+        Me.PpdCommon = New System.Windows.Forms.PrintPreviewDialog()
+        Me.PrdText = New System.Drawing.Printing.PrintDocument()
+        Me.PrintDialog1 = New System.Windows.Forms.PrintDialog()
+        Me.PageSetupDialog1 = New System.Windows.Forms.PageSetupDialog()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -140,7 +145,7 @@ Partial Class FrmMyNotepad
         Me.PrintToolStripMenuItem1.Name = "PrintToolStripMenuItem1"
         Me.PrintToolStripMenuItem1.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.P), System.Windows.Forms.Keys)
         Me.PrintToolStripMenuItem1.Size = New System.Drawing.Size(274, 26)
-        Me.PrintToolStripMenuItem1.Text = "&Print..."
+        Me.PrintToolStripMenuItem1.Text = "&Print Preview"
         '
         'ToolStripMenuItem1
         '
@@ -276,7 +281,7 @@ Partial Class FrmMyNotepad
         'WordWrapToolStripMenuItem
         '
         Me.WordWrapToolStripMenuItem.Name = "WordWrapToolStripMenuItem"
-        Me.WordWrapToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.WordWrapToolStripMenuItem.Size = New System.Drawing.Size(168, 26)
         Me.WordWrapToolStripMenuItem.Text = "Word &Wrap"
         '
         'FontToolStripMenuItem
@@ -296,7 +301,7 @@ Partial Class FrmMyNotepad
         '
         Me.ZoomToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ZoomInToolStripMenuItem, Me.ZoomOutToolStripMenuItem, Me.RestoreDefaultZoomToolStripMenuItem})
         Me.ZoomToolStripMenuItem.Name = "ZoomToolStripMenuItem"
-        Me.ZoomToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ZoomToolStripMenuItem.Size = New System.Drawing.Size(158, 26)
         Me.ZoomToolStripMenuItem.Text = "Zoom"
         '
         'ZoomInToolStripMenuItem
@@ -321,14 +326,14 @@ Partial Class FrmMyNotepad
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(221, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(155, 6)
         '
         'StatusBarToolStripMenuItem
         '
         Me.StatusBarToolStripMenuItem.Checked = True
         Me.StatusBarToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked
         Me.StatusBarToolStripMenuItem.Name = "StatusBarToolStripMenuItem"
-        Me.StatusBarToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.StatusBarToolStripMenuItem.Size = New System.Drawing.Size(158, 26)
         Me.StatusBarToolStripMenuItem.Text = "Status Bar"
         '
         'HelpToolStripMenuItem
@@ -363,11 +368,28 @@ Partial Class FrmMyNotepad
         '
         'TxtEditingArea
         '
-        Me.TxtEditingArea.Location = New System.Drawing.Point(3, 24)
+        Me.TxtEditingArea.Location = New System.Drawing.Point(2, 24)
         Me.TxtEditingArea.Multiline = True
         Me.TxtEditingArea.Name = "TxtEditingArea"
         Me.TxtEditingArea.Size = New System.Drawing.Size(1092, 507)
         Me.TxtEditingArea.TabIndex = 1
+        '
+        'PpdCommon
+        '
+        Me.PpdCommon.AutoScrollMargin = New System.Drawing.Size(0, 0)
+        Me.PpdCommon.AutoScrollMinSize = New System.Drawing.Size(0, 0)
+        Me.PpdCommon.ClientSize = New System.Drawing.Size(400, 300)
+        Me.PpdCommon.Enabled = True
+        Me.PpdCommon.Icon = CType(resources.GetObject("PpdCommon.Icon"), System.Drawing.Icon)
+        Me.PpdCommon.Name = "PpdCommon"
+        Me.PpdCommon.Visible = False
+        '
+        'PrdText
+        '
+        '
+        'PrintDialog1
+        '
+        Me.PrintDialog1.UseEXDialog = True
         '
         'FrmMyNotepad
         '
@@ -431,4 +453,8 @@ Partial Class FrmMyNotepad
     Friend WithEvents ToolStripMenuItem5 As ToolStripSeparator
     Friend WithEvents AboutNotepadToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TxtEditingArea As TextBox
+    Friend WithEvents PpdCommon As PrintPreviewDialog
+    Friend WithEvents PrdText As Printing.PrintDocument
+    Friend WithEvents PrintDialog1 As PrintDialog
+    Friend WithEvents PageSetupDialog1 As PageSetupDialog
 End Class

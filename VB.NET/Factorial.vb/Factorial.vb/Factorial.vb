@@ -1,4 +1,4 @@
-Imports System
+
 
 Module Factorial
     Sub Main(args As String())
