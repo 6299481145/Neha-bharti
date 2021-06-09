@@ -13,6 +13,6 @@ void multiplication (int n)
 }
 int main()
 {
-	multiplication(5);
+	multiplication(6);
 	return 0;
 }
