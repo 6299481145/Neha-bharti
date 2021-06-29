@@ -1,0 +1,12 @@
+D:\Neha Bharti\VB(GUI)\GuessNumber\GuessNumber\obj\Debug\GuessNumber.vbprojAssemblyReference.cache
+D:\Neha Bharti\VB(GUI)\GuessNumber\GuessNumber\obj\Debug\GuessNumber.Resources.resources
+D:\Neha Bharti\VB(GUI)\GuessNumber\GuessNumber\obj\Debug\GuessNumber.vbproj.GenerateResource.cache
+D:\Neha Bharti\VB(GUI)\GuessNumber\GuessNumber\obj\Debug\GuessNumber.vbproj.CoreCompileInputs.cache
+D:\Neha Bharti\VB(GUI)\GuessNumber\GuessNumber\bin\Debug\GuessNumber.exe.config
+D:\Neha Bharti\VB(GUI)\GuessNumber\GuessNumber\bin\Debug\GuessNumber.exe
+D:\Neha Bharti\VB(GUI)\GuessNumber\GuessNumber\bin\Debug\GuessNumber.pdb
+D:\Neha Bharti\VB(GUI)\GuessNumber\GuessNumber\bin\Debug\GuessNumber.xml
+D:\Neha Bharti\VB(GUI)\GuessNumber\GuessNumber\obj\Debug\GuessNumber.exe
+D:\Neha Bharti\VB(GUI)\GuessNumber\GuessNumber\obj\Debug\GuessNumber.xml
+D:\Neha Bharti\VB(GUI)\GuessNumber\GuessNumber\obj\Debug\GuessNumber.pdb
+D:\Neha Bharti\VB(GUI)\GuessNumber\GuessNumber\obj\Debug\GuessNumber.FrmGuessNumber.resources
