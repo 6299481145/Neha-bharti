@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//import java.lang.Math;
 abstract class shape {
    public final float PI = 3.14F; 
    public abstract void input();
@@ -38,37 +39,42 @@ class Rectangle extends shape {
 }
 
 class Triangle extends shape{
-    private int b, h;
+    private float a, b, c, s;
 
     public void input(){
         Scanner sc = new Scanner(System.in);
-        System.out.print("\nEnter base: ");
+        System.out.print("\nEnter the value of a: ");
+        a =sc.nextInt();
+
+        System.out.print("Enter the value of b: ");
         b =sc.nextInt();
 
-        System.out.print("Enter height: ");
-        h =sc.nextInt();
-        //sc.close();
+        System.out.print("Enter the value of c: ");
+        c =sc.nextInt(); 
+        sc.close();
 
     }
     public float area(){
-        return (b * h)/2;
+
+        s =(a+b+c)/2;
+        return (float)Math.sqrt(s* (s-a) * (s-b) * (s-c));
     }
 
 } 
 
 class AbstractClass{
 public static void main(String [] args){
-    shape c = new Circle();
-    c.input();
-    System.out.println("The area of circle is " + c.area());
+    shape s = new Circle();
+    s.input();
+    System.out.println("The area of circle is " + s.area());
 
-    shape R = new Rectangle();
-    R.input();
-    System.out.println("The area of rectangle is " + R.area());
+    s = new Rectangle();
+    s.input();
+    System.out.println("The area of rectangle is " + s.area());
     
-    shape T = new Triangle();
-    T.input();
-    System.out.println("The area of rectangle is " + T.area());
+    s = new Triangle();
+    s.input();
+    System.out.println("The area of rectangle is " + s.area());
   }
 }
 

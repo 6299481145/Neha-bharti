@@ -1,10 +1,11 @@
 #include<iostream>
+#include<cmath>
 using namespace std;
-#define PI 3.14
+//#define PI 3.14
 class shape
 {
     public:
-        //const float PI = 3.14;     //Error in java
+        const float PI = 3.14;     //Error in java
         virtual void input() = 0;   //pure virtual function
         virtual float area() = 0;
 
@@ -27,7 +28,7 @@ class Circle : public shape
 
  class Rectangle : public shape
  {
-     int l, b;
+    float l, b;
    public:  
      void input()
      {
@@ -46,33 +47,37 @@ class Circle : public shape
 
  class Triangle : public shape
  {
-    int b, h ;
+    float a, b, c, s ;
   public:
    void input()
    {
-      cout<<"\nEnter base: ";
+      cout<<"\nEnter the value of a: ";
+      cin>>a;
+
+      cout<<"Enter the value of b: ";
       cin>>b;
 
-      cout<<"Enter height: ";
-      cin>>h;
+      cout<<"The the value of c: ";
+      cin>>c;
    }
    float area()
    {
-      return  (b * h)/2;
+      s = (a+b+c)/2;
+      return sqrt(s*(s-a) * (s-b) * (s-c));
    }
  };
 
  int main()
 {
-   shape *C = new Circle();
-   C->input();
-   cout<<"The area of circle is "<<C->area()<<endl;
+   shape *s = new Circle();
+   s->input();
+   cout<<"The area of circle is "<<s->area()<<endl;
 
-   shape *R = new Rectangle();
-   R->input();
-   cout<<"The area of rectangle is "<<R->area()<<endl;
+   s = new Rectangle();
+   s->input();
+   cout<<"The area of rectangle is "<<s->area()<<endl;
 
-   shape *T = new Triangle();
-   T->input();
-   cout<<"The area of triangle is "<<T->area()<<endl;
+   s = new Triangle();
+   s->input();
+   cout<<"The area of triangle is "<<s->area()<<endl;
 }
