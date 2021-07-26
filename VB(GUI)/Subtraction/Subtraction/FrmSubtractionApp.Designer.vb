@@ -69,13 +69,15 @@ Partial Class FrmSubtractionApp
         'TxtMinuend
         '
         Me.TxtMinuend.Location = New System.Drawing.Point(223, 132)
+        Me.TxtMinuend.Multiline = True
         Me.TxtMinuend.Name = "TxtMinuend"
-        Me.TxtMinuend.Size = New System.Drawing.Size(100, 22)
+        Me.TxtMinuend.Size = New System.Drawing.Size(100, 26)
         Me.TxtMinuend.TabIndex = 4
         '
         'TxtDifference
         '
         Me.TxtDifference.Location = New System.Drawing.Point(225, 200)
+        Me.TxtDifference.Multiline = True
         Me.TxtDifference.Name = "TxtDifference"
         Me.TxtDifference.ReadOnly = True
         Me.TxtDifference.Size = New System.Drawing.Size(100, 22)
@@ -104,7 +106,7 @@ Partial Class FrmSubtractionApp
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(463, 409)
+        Me.ClientSize = New System.Drawing.Size(474, 396)
         Me.Controls.Add(Me.BtnReset)
         Me.Controls.Add(Me.BtnSubtract)
         Me.Controls.Add(Me.TxtDifference)

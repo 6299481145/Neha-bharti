@@ -1,12 +1,14 @@
+package com.nehu.abstractclass;
 import java.util.Scanner;
+
 //import java.lang.Math;
-abstract class shape {
+abstract class Shape {
    public final float PI = 3.14F; 
    public abstract void input();
    public abstract float area();
 }
 
-class Circle extends shape {
+class Circle extends Shape {
     private float rad;
 
     public void input(){
@@ -20,7 +22,7 @@ class Circle extends shape {
     }
 }
 
-class Rectangle extends shape {
+class Rectangle extends Shape {
     private int l,b;
 
     public void input(){
@@ -38,7 +40,7 @@ class Rectangle extends shape {
    
 }
 
-class Triangle extends shape{
+class Triangle extends Shape{
     private float a, b, c, s;
 
     public void input(){
@@ -64,7 +66,7 @@ class Triangle extends shape{
 
 class AbstractClass{
 public static void main(String [] args){
-    shape s = new Circle();
+    Shape s = new Circle();
     s.input();
     System.out.println("The area of circle is " + s.area());
 

@@ -10,3 +10,15 @@ D:\Neha-bharti\VBNET\Subtraction\Subtraction\obj\Debug\Subtraction.vbproj.CoreCo
 D:\Neha-bharti\VBNET\Subtraction\Subtraction\obj\Debug\Subtraction.exe
 D:\Neha-bharti\VBNET\Subtraction\Subtraction\obj\Debug\Subtraction.xml
 D:\Neha-bharti\VBNET\Subtraction\Subtraction\obj\Debug\Subtraction.pdb
+D:\Neha Bharti\VB(GUI)\Subtraction\Subtraction\bin\Debug\Subtraction.exe.config
+D:\Neha Bharti\VB(GUI)\Subtraction\Subtraction\bin\Debug\Subtraction.exe
+D:\Neha Bharti\VB(GUI)\Subtraction\Subtraction\bin\Debug\Subtraction.pdb
+D:\Neha Bharti\VB(GUI)\Subtraction\Subtraction\bin\Debug\Subtraction.xml
+D:\Neha Bharti\VB(GUI)\Subtraction\Subtraction\obj\Debug\Subtraction.vbprojAssemblyReference.cache
+D:\Neha Bharti\VB(GUI)\Subtraction\Subtraction\obj\Debug\Subtraction.FrmSubtractionApp.resources
+D:\Neha Bharti\VB(GUI)\Subtraction\Subtraction\obj\Debug\Subtraction.Resources.resources
+D:\Neha Bharti\VB(GUI)\Subtraction\Subtraction\obj\Debug\Subtraction.vbproj.GenerateResource.cache
+D:\Neha Bharti\VB(GUI)\Subtraction\Subtraction\obj\Debug\Subtraction.vbproj.CoreCompileInputs.cache
+D:\Neha Bharti\VB(GUI)\Subtraction\Subtraction\obj\Debug\Subtraction.exe
+D:\Neha Bharti\VB(GUI)\Subtraction\Subtraction\obj\Debug\Subtraction.xml
+D:\Neha Bharti\VB(GUI)\Subtraction\Subtraction\obj\Debug\Subtraction.pdb

@@ -21,4 +21,4 @@ public class Addition {
 		System.out.println("The sum is "  + c + "." );
 	}
 	
-}
+}  

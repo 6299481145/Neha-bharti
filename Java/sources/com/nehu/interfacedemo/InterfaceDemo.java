@@ -53,7 +53,7 @@ class Triangle implements Shape {
         b = sc.nextFloat();
         System.out.print("Enter the value of c: ");
         c = sc.nextFloat();
-        //sc.close();
+        sc.close();
     }
 
     public float area() {

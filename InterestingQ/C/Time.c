@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-struct time 
+struct Time 
 {
     int hour;
     int minute;
@@ -8,13 +8,18 @@ struct time
 };
 main()
 {
-    struct time t;
-    printf("Enter hour: ");
+    struct Time t;
+    /*printf("Enter hour: ");
     scanf("%d", t.hour);
     printf("Enter minute: ");
     scanf("%d", t.minute);
     printf("Enter second: ");
     scanf("%d", t.second);
-    printf("The time is %d:%d:%d", t.hour);
+    */
+    t.hour=12;
+    t.minute=30;
+    t.second=23;
+
+    printf("The time is %d:%d:%d", t.hour,t.minute,t.second);
     return 0;
 }
