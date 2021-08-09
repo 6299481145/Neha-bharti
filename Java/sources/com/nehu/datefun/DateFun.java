@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class DateFun{
 
 static void show(int d, int m, int y){
-   System.out.println(d+ "/" + m + "/" +y);
+   System.out.println(d+ "-" + m + "-" +y);
 }
 
 public static void main(String[] args){
