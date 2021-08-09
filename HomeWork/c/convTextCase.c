@@ -5,28 +5,28 @@
  
 int main()
 {
-  	char Str1[100];
+  	char Str[20];
   	int i;
  
   	printf("\n Please Enter a String in lowercase or Uppercase:  ");
-  	gets(Str1);
+  	gets(Str);
   	
-  	for (i = 0; Str1[i]!='\0'; i++)
+  	for (i = 0; Str[i]!='\0'; i++)
   	{
 
-        if(Str1[i] >= 65 && Str1[i] <= 90)
+        if(Str[i] >= 65 && Str[i] <= 90)
   		{
-  			Str1[i] = Str1[i] +32;
+  			Str[i] = Str[i] +32;
 		}
         else  
-  		if(Str1[i] >= 97 && Str1[i] <= 122)
+  		if(Str[i] >= 97 && Str[i] <= 122)
   		{
-  			Str1[i] = Str1[i] -32;
+  			Str[i] = Str[i] -32;
 		}
         
   	}
 
-  	printf("\n The given String convert in Upper Case or lowercase = %s", Str1);
+  	printf("\n The given String convert in Upper Case or lowercase = %s", Str);
   	
   	return 0;
 }
