@@ -23,5 +23,3 @@ public class StudentDetails{
         System.out.println("Contact No: " +contact);
         System.out.println("email: " +email);
         sc.close();
-    }
-}
