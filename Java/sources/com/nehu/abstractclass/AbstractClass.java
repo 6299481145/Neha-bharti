@@ -6,7 +6,6 @@ abstract class Shape {
    public final float PI = 3.14F; 
    public abstract void input();
    public abstract float area();
-}
 
 class Circle extends Shape {
     private float rad;
@@ -20,6 +19,7 @@ class Circle extends Shape {
     public float area(){
         return PI * rad *rad;
     }
+}
 }
 
 class Rectangle extends Shape {
@@ -79,4 +79,3 @@ public static void main(String [] args){
     System.out.println("The area of rectangle is " + s.area());
   }
 }
-
