@@ -17,5 +17,13 @@ class UserController extends Controller
         $user->last_name = $request->last_name;
         $user->save();
         echo "User registered successfully";
-    }  
+    }
+    function login(Request $request)
+    {
+        $user = User::where('email', $request->email)->first();
+        if ($user->email == $request->email)
+            return view('resume');
+        else
+            echo "Invalid user";
+    }
 }
